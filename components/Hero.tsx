@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 className="font-bold text-2xl sm:mr-6 mb-4">The platform - where people are brought together</h1>
           <p className="">
             At <span className="font-bold">HAPNIN</span>, we believe that local
-            events and activities are the heart of any community. That's why we
+            events and activities are the heart of any community. That&apos;s why we
             created our app to help you discover the best free and low cost
             events in your area.
           </p>
