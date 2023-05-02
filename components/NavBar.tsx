@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
+import Link from "next/link";
 
 import googleDownload from "../public/google-badge.svg";
 import iosDownload from "../public/app-store-badge.svg";
+import DownloadAppCTA from "./DownloadAppCTA";
 
 const NavBar = () => {
   const [openNavMenu, setOpenNavMenu] = useState(false);
@@ -27,19 +29,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        {/* DOWNLOAD CTA */}
-        <div className="hidden md:flex">
-          <button>
-            <Image src={googleDownload} alt="google download" />
-          </button>
-          <button>
-            <Image
-              src={iosDownload}
-              alt="app store download"
-              className="ml-2"
-            />
-          </button>
-        </div>
+        <DownloadAppCTA style="hidden md:flex" />
 
         <div className="md:hidden mr-4" onClick={() => handleToggleNavMenu()}>
           {openNavMenu ? (
@@ -57,21 +47,9 @@ const NavBar = () => {
           <li className="border-b-2">About</li>
           <li className="border-b-2">Partners</li>
           <li className="border-b-2">Who We Are</li>
-          <div className="flex">
-            <button>
-              <Image src={googleDownload} alt="google download" />
-            </button>
-            <button>
-              <Image
-                src={iosDownload}
-                alt="app store download"
-                className="ml-2"
-              />
-            </button>
-          </div>
+          <DownloadAppCTA style="flex" />
         </ul>
       </div>
-      {/* DOWNLOAD CTA */}
     </div>
   );
 };
