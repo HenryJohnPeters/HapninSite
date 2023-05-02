@@ -13,7 +13,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
+    <div className="w-screen h-[80px] z-10 fixed bg-white drop-shadow-md">
       {/* DESKTOP NAV BAR */}
       <div className="flex justify-between items-center px-4 w-full h-full">
         {/* LOGO + NAV */}
