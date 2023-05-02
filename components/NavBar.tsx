@@ -22,8 +22,7 @@ const NavBar = () => {
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4">HAPNIN</h1>
           <ul className="hidden md:flex">
-            <li>Home</li>
-            <li>About</li>
+            <li>How it works</li>
             <li>Partners</li>
             <li>Who We Are</li>
           </ul>
@@ -43,8 +42,7 @@ const NavBar = () => {
       {/* MOBILE VIEW NAV MENU */}
       <div>
         <ul className={openNavMenu ? "absolute w-full px-8" : "hidden"}>
-          <li className="border-b-2">Home</li>
-          <li className="border-b-2">About</li>
+          <li className="border-b-2">How it works</li>
           <li className="border-b-2">Partners</li>
           <li className="border-b-2">Who We Are</li>
           <DownloadAppCTA style="flex" />

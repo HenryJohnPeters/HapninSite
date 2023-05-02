@@ -7,6 +7,14 @@
     @apply p-4 hover:cursor-pointer hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-[#70f1ae];
   }
 
+  img {
+    @apply rounded-xl
+  }
+
+  /* p {
+    @apply
+  } */
+
   /* button {
     @apply text-white border bg-[#70f1ae] hover:bg-transparent hover:text-indigo-600 rounded-md py-3;
   } */
