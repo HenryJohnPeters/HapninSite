@@ -41,7 +41,7 @@ const NavBar = () => {
 
       {/* MOBILE VIEW NAV MENU */}
       <div>
-        <ul className={openNavMenu ? "absolute w-full px-8" : "hidden"}>
+        <ul className={openNavMenu ? "absolute w-full px-8 bg-white" : "hidden"}>
           <li className="border-b-2">How it works</li>
           <li className="border-b-2">Partners</li>
           <li className="border-b-2">Who We Are</li>
