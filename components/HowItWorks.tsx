@@ -47,7 +47,7 @@ const HowItWorks = () => {
             naturalSlideWidth={110}
             naturalSlideHeight={240}
             totalSlides={3}
-            visibleSlides={2.5}
+            visibleSlides={1.5}
             className="sm:hidden bg-red-600"
           >
             <Slider>
