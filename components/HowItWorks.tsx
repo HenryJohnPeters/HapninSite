@@ -27,22 +27,53 @@ const HowItWorks = () => {
           <h1 className="font-bold text-2xl">How HAPNIN works</h1>
         </div>
 
-        {/* SCREENS */}
-        {/* <div>
-          <div>
-            <Image src={screen2} alt="map with event pins" />
-            <p>Create your event</p>
+        {/* CONTAINER 1 */}
+        <div className="overflow-auto mb-10">
+          {/* CONTAINER 2 */}
+          <div className="flex flex-row sm:space-y-0">
+            {/* SLIDE 1 */}
+            <div className="flex flex-col items-center space-y-2 p-2 rounded-xl">
+              <div className="border-[0.25px] border-black rounded-xl w-[300px]">
+                <Image
+                  src={screen2}
+                  alt="map with event pins"
+                  //   className="border-[0.25px] border-gray-500"
+                />
+              </div>
+              <div>
+                <p>Create an event</p>
+              </div>
+            </div>
+            {/* SLIDE 2 */}
+            <div className="flex flex-col items-center space-y-2 p-2 rounded-xl">
+              <div className="border-[0.25px] border-black rounded-xl w-[300px]">
+                <Image
+                  src={screen1}
+                  alt="map with event pins"
+                  //   className="border-[0.25px] border-gray-500"
+                />
+              </div>
+              <div>
+                <p>Find an event</p>
+              </div>
+            </div>
+            {/* SLIDE 3 */}
+            <div className="flex flex-col items-center space-y-2 p-2 rounded-xl">
+              <div className="border-[0.25px] border-black rounded-xl w-[300px]">
+                <Image
+                  src={screen4}
+                  alt="map with event pins"
+                  //   className="border-[0.25px] border-gray-500"
+                />
+              </div>
+              <div>
+                <p>Join an event</p>
+              </div>
+            </div>
           </div>
-          <div>
-            <Image src={screen1} alt="map with event pins" />
-            <p>Find an event</p>
-          </div>
-          <div>
-            <Image src={screen4} alt="map with event pins" />
-            <p>Join the event</p>
-          </div>
-        </div> */}
-        <div className="">
+        </div>
+
+        {/* <div className="">
           <CarouselProvider
             naturalSlideWidth={100}
             naturalSlideHeight={200}
@@ -56,7 +87,7 @@ const HowItWorks = () => {
                   <Image
                     src={screen2}
                     alt="map with event pins"
-                    className="border-black border-[0.25px]"
+                    className="border-[0.25px] border-gray-500"
                   />
                   <p>Create your event</p>
                 </div>
@@ -66,7 +97,7 @@ const HowItWorks = () => {
                   <Image
                     src={screen1}
                     alt="map with event pins"
-                    className="border-black border-[0.25px]"
+                    className="border-[0.25px] border-gray-500"
                   />
                   <p>Find an event</p>
                 </div>
@@ -76,14 +107,14 @@ const HowItWorks = () => {
                   <Image
                     src={screen4}
                     alt="map with event pins"
-                    className="border-black border-[0.25px]"
+                    className="border-[0.25px] border-gray-500"
                   />
                   <p>Join the event</p>
                 </div>
               </Slide>
             </Slider>
           </CarouselProvider>
-        </div>
+        </div> */}
       </div>
     </div>
   );
