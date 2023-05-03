@@ -21,7 +21,7 @@ const HowItWorks = () => {
   const isTablet = useMediaQuery({ minWidth: 641, maxWidth: 768 });
   const isDesktop = useMediaQuery({ minWidth: 768 });
   return (
-    <div className="bg-red-400 w-full px-6 sm:px-10 py-9">
+    <div className="w-full px-6 sm:px-10 py-9">
       <div className="mx-auto">
         <div className="">
           <h1 className="font-bold text-2xl">How HAPNIN works</h1>
@@ -44,28 +44,40 @@ const HowItWorks = () => {
         </div> */}
         <div className="">
           <CarouselProvider
-            naturalSlideWidth={10}
-            naturalSlideHeight={240}
+            naturalSlideWidth={100}
+            naturalSlideHeight={200}
             totalSlides={3}
             visibleSlides={1.5}
-            className="sm:hidden bg-red-600"
+            className="sm:hidden"
           >
             <Slider>
-              <Slide index={0}>
-                <div className="mr-3">
-                  <Image src={screen2} alt="map with event pins" />
+              <Slide index={0} className="">
+                <div className="mr-3 flex flex-col items-center">
+                  <Image
+                    src={screen2}
+                    alt="map with event pins"
+                    className="border-black border-[0.25px]"
+                  />
                   <p>Create your event</p>
                 </div>
               </Slide>
               <Slide index={1}>
-                <div className="mr-3">
-                  <Image src={screen1} alt="map with event pins" />
+                <div className="mr-3 flex flex-col items-center">
+                  <Image
+                    src={screen1}
+                    alt="map with event pins"
+                    className="border-black border-[0.25px]"
+                  />
                   <p>Find an event</p>
                 </div>
               </Slide>
               <Slide index={2}>
-                <div className="mr-3">
-                  <Image src={screen4} alt="map with event pins" />
+                <div className="mr-3 flex flex-col items-center">
+                  <Image
+                    src={screen4}
+                    alt="map with event pins"
+                    className="border-black border-[0.25px]"
+                  />
                   <p>Join the event</p>
                 </div>
               </Slide>
