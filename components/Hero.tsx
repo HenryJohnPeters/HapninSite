@@ -3,11 +3,12 @@ import Image from "next/image";
 import charity from "../public/static/charity.jpg";
 import event from "../public/static/event.jpg";
 import neighbours from "../public/static/neighbours.jpg";
+import barbecue from "../public/static/barbecue-party.svg";
 
 const Hero = () => {
   return (
     <div className="w-full sm:h-screen flex flex-col justify-between px-6 sm:px-10">
-      <div className="mx-auto sm:mx-4 md:mx-12 mt-28 mb-8 sm:m-auto">
+      <div className="mx-auto sm:mx-4 md:mx-12 mt-28 mb-8 sm:my-auto xl:mx-[6rem] 2xl:w-[1200px] 2xl:mx-auto">
         {/* TOP */}
         <div className="w-full sm:mb-9 sm:flex sm:items-center">
           <h1 className="font-bold text-2xl sm:mr-6 mb-4">The platform - where people are brought together</h1>
@@ -17,6 +18,7 @@ const Hero = () => {
             created our app to help you discover the best free and low cost
             events in your area.
           </p>
+          <Image src={barbecue}  alt="party" className="hidden sm:block"/>
         </div>
 
         {/* BOTTOM */}
