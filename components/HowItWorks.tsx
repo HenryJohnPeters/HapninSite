@@ -44,24 +44,30 @@ const HowItWorks = () => {
         </div> */}
         <div className="">
           <CarouselProvider
-            naturalSlideWidth={110}
+            naturalSlideWidth={10}
             naturalSlideHeight={240}
             totalSlides={3}
             visibleSlides={1.5}
             className="sm:hidden bg-red-600"
           >
             <Slider>
-              <Slide index={0} className="mr-6">
-                <Image src={screen2} alt="map with event pins" />
-                <p>Create your event</p>
+              <Slide index={0}>
+                <div className="mr-3">
+                  <Image src={screen2} alt="map with event pins" />
+                  <p>Create your event</p>
+                </div>
               </Slide>
-              <Slide index={1} className="mr-6">
-                <Image src={screen1} alt="map with event pins" />
-                <p>Find an event</p>
+              <Slide index={1}>
+                <div className="mr-3">
+                  <Image src={screen1} alt="map with event pins" />
+                  <p>Find an event</p>
+                </div>
               </Slide>
-              <Slide index={2} className="mr-6">
-                <Image src={screen4} alt="map with event pins" />
-                <p>Join the event</p>
+              <Slide index={2}>
+                <div className="mr-3">
+                  <Image src={screen4} alt="map with event pins" />
+                  <p>Join the event</p>
+                </div>
               </Slide>
             </Slider>
           </CarouselProvider>
