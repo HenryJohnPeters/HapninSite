@@ -6,10 +6,10 @@ import neighbours from "../public/static/neighbours.jpg";
 
 const Hero = () => {
   return (
-    <div className="w-full sm:h-screen flex flex-col justify-between px-6 sm:px-10 bg-green-300">
+    <div className="w-full sm:h-screen flex flex-col justify-between px-6 sm:px-10">
       <div className="mx-auto sm:mx-4 md:mx-12 mt-28 mb-8 sm:m-auto">
         {/* TOP */}
-        <div className="w-full sm:mb-9 sm:flex items-center">
+        <div className="w-full sm:mb-9 sm:flex sm:items-center">
           <h1 className="font-bold text-2xl sm:mr-6 mb-4">The platform - where people are brought together</h1>
           <p className="">
             At <span className="font-bold">HAPNIN</span>, we believe that local

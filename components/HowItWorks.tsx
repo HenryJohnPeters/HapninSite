@@ -1,19 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-  DotGroup,
-} from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
 import { useMediaQuery } from "react-responsive";
 
 import screen1 from "../public/static/screen1.png";
 import screen2 from "../public/static/screen2.png";
-import screen3 from "../public/static/screen3.png";
 import screen4 from "../public/static/screen4.png";
 
 const HowItWorks = () => {
@@ -22,9 +12,9 @@ const HowItWorks = () => {
   const isDesktop = useMediaQuery({ minWidth: 768 });
   return (
     <div className="w-full px-6 sm:px-10 py-9">
-      <div className="mx-auto">
-        <div className="">
-          <h1 className="font-bold text-2xl">How HAPNIN works</h1>
+      <div>
+        <div className="mb-4">
+          <h2 className="font-bold text-2xl">How HAPNIN works</h2>
         </div>
 
         {/* CONTAINER 1 */}
@@ -32,8 +22,8 @@ const HowItWorks = () => {
           {/* CONTAINER 2 */}
           <div className="flex flex-row sm:space-y-0">
             {/* SLIDE 1 */}
-            <div className="flex flex-col items-center space-y-2 p-2 rounded-xl">
-              <div className="border-[0.25px] border-black rounded-xl w-[300px]">
+            <div className="flex flex-col items-center space-y-2 pr-2 py-2 rounded-xl">
+              <div className="border-[0.25px] border-black rounded-xl w-[250px]">
                 <Image
                   src={screen2}
                   alt="map with event pins"
@@ -46,7 +36,7 @@ const HowItWorks = () => {
             </div>
             {/* SLIDE 2 */}
             <div className="flex flex-col items-center space-y-2 p-2 rounded-xl">
-              <div className="border-[0.25px] border-black rounded-xl w-[300px]">
+              <div className="border-[0.25px] border-black rounded-xl w-[250px]">
                 <Image
                   src={screen1}
                   alt="map with event pins"
@@ -59,7 +49,7 @@ const HowItWorks = () => {
             </div>
             {/* SLIDE 3 */}
             <div className="flex flex-col items-center space-y-2 p-2 rounded-xl">
-              <div className="border-[0.25px] border-black rounded-xl w-[300px]">
+              <div className="border-[0.25px] border-black rounded-xl w-[250px]">
                 <Image
                   src={screen4}
                   alt="map with event pins"
@@ -72,49 +62,6 @@ const HowItWorks = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="">
-          <CarouselProvider
-            naturalSlideWidth={100}
-            naturalSlideHeight={200}
-            totalSlides={3}
-            visibleSlides={1.5}
-            className="sm:hidden"
-          >
-            <Slider>
-              <Slide index={0} className="">
-                <div className="mr-3 flex flex-col items-center">
-                  <Image
-                    src={screen2}
-                    alt="map with event pins"
-                    className="border-[0.25px] border-gray-500"
-                  />
-                  <p>Create your event</p>
-                </div>
-              </Slide>
-              <Slide index={1}>
-                <div className="mr-3 flex flex-col items-center">
-                  <Image
-                    src={screen1}
-                    alt="map with event pins"
-                    className="border-[0.25px] border-gray-500"
-                  />
-                  <p>Find an event</p>
-                </div>
-              </Slide>
-              <Slide index={2}>
-                <div className="mr-3 flex flex-col items-center">
-                  <Image
-                    src={screen4}
-                    alt="map with event pins"
-                    className="border-[0.25px] border-gray-500"
-                  />
-                  <p>Join the event</p>
-                </div>
-              </Slide>
-            </Slider>
-          </CarouselProvider>
-        </div> */}
       </div>
     </div>
   );
