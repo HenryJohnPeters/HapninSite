@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Partners from "@/components/Partners";
 import About from "@/components/About";
+import Footer from "@/components/Footer";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function Home() {
       <HowItWorks />
       <Partners />
       <About />
+      <Footer />
     </main>
   );
 }
