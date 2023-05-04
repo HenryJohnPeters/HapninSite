@@ -50,6 +50,7 @@ const HowItWorks = () => {
             <Card image={screen4} description={attendEventDesc} name={'Host Events'} />
           </SwiperSlide>
         </Swiper>
+        {/* <HowItWorksMobileV /> */}
       </div>
     </div>
   );
