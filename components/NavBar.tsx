@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
-import Link from "next/link";
+import { Link, animateScroll as scroll } from "react-scroll";
 
-import googleDownload from "../public/google-badge.svg";
-import iosDownload from "../public/app-store-badge.svg";
 import DownloadAppCTA from "./DownloadAppCTA";
 
 const NavBar = () => {
   const [openNavMenu, setOpenNavMenu] = useState(false);
 
   const handleToggleNavMenu = () => {
+    setOpenNavMenu(!openNavMenu);
+  };
+
+  const handleClosenavMenu = () => {
     setOpenNavMenu(!openNavMenu);
   };
 
@@ -22,9 +23,26 @@ const NavBar = () => {
         <div className="flex items-center">
           <h1 className="text-3xl font-bold mr-4">HAPNIN</h1>
           <ul className="hidden md:flex">
-            <li>How it works</li>
-            <li>Partners</li>
-            <li>Who We Are</li>
+            <li>
+              <Link to="hero" smooth={true} duration={500}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="howItWorks" smooth={true} duration={500} offset={-160}>
+                How It Works
+              </Link>
+            </li>
+            <li>
+              <Link to="partners" smooth={true} duration={500} offset={-140}>
+                Partners
+              </Link>
+            </li>
+            <li>
+              <Link to="about" smooth={true} duration={500} offset={-160}>
+                Who We Are
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -41,10 +59,49 @@ const NavBar = () => {
 
       {/* MOBILE VIEW NAV MENU */}
       <div>
-        <ul className={openNavMenu ? "absolute w-full px-8 bg-white" : "hidden"}>
-          <li className="border-b-2">How it works</li>
-          <li className="border-b-2">Partners</li>
-          <li className="border-b-2">Who We Are</li>
+        <ul
+          className={openNavMenu ? "absolute w-full px-8 bg-white" : "hidden"}
+        >
+          <li className="border-b-2">
+            <Link
+              to="hero"
+              smooth={true}
+              duration={500}
+              onClick={() => handleClosenavMenu()}
+            >
+              Home
+            </Link>
+          </li>
+          <li className="border-b-2">
+            <Link
+              to="howItWorks"
+              smooth={true}
+              duration={500}
+              onClick={() => handleClosenavMenu()}
+            >
+              How it works
+            </Link>
+          </li>
+          <li className="border-b-2">
+            <Link
+              to="partners"
+              smooth={true}
+              duration={500}
+              onClick={() => handleClosenavMenu()}
+            >
+              Partners
+            </Link>
+          </li>
+          <li className="border-b-2">
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              onClick={() => handleClosenavMenu()}
+            >
+              Who We Are
+            </Link>
+          </li>
           <DownloadAppCTA style="flex" />
         </ul>
       </div>
