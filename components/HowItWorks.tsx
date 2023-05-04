@@ -1,8 +1,14 @@
 import Image, { StaticImageData } from "next/image";
- 
+
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
+import { Element } from "react-scroll";
+
+import screen1 from "../public/static/screen1.png";
+import screen2 from "../public/static/screen2.png";
+import screen4 from "../public/static/screen4.png";
+import map from "../public/static/map.png";
 import HowItWorksMobileV from "./HowItWorksMobileV";
 
 interface Props {
