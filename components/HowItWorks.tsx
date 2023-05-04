@@ -1,5 +1,4 @@
 import Image, { StaticImageData } from "next/image";
-
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
@@ -58,6 +57,7 @@ const HowItWorks = () => {
             1024: { slidesPerView: 3 },
           }}
           className="flex"
+          pagination={{ clickable: true }}
         >
           <SwiperSlide>
             <Card
@@ -86,8 +86,6 @@ const HowItWorks = () => {
     </div>
   );
 };
-
- 
 
 
 
