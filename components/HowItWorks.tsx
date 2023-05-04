@@ -1,7 +1,9 @@
 import Image, { StaticImageData } from "next/image";
+ 
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/swiper-bundle.css';
+import "swiper/swiper-bundle.css";
+import HowItWorksMobileV from "./HowItWorksMobileV";
 
 interface Props {
   name: string;
@@ -12,11 +14,17 @@ interface Props {
 function Card({ name, image, description }: Props) {
   return (
     <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg flex">
-    
-        <Image width={2000} height={200} src={image} alt="Coffee" objectFit="cover" />
-   
-      <div className="px-4 py-4 flex-shrink-0 w-96">
-        <div className="font-medium mb-1">{name || "Coffee"}</div>
+      <div className="w-1/3 sm:w-1/4">
+        <Image
+          width={2000}
+          height={200}
+          src={image}
+          alt="Coffee"
+          objectFit="cover"
+        />
+      </div>
+      <div className="px-4 py-4 flex-shrink-0 w-2/3 sm:w-3/4">
+        <div className="font-medium mb-1 text-lg">{name || "Coffee"}</div>
         <p className="text-gray-700 text-sm">{description}</p>
       </div>
     </div>
@@ -32,22 +40,39 @@ const HowItWorks = () => {
     <div className="w-full px-6 sm:px-10 py-9">
       <div className="xl:mx-[6rem] 2xl:w-[1200px] 2xl:mx-auto">
         <div className="mb-4">
-          <h2 className="font-bold text-2xl">How HAPNIN works</h2>
+          <h2 className="font-bold text-2xl text-center mb-2">How HAPNIN works</h2>
+          <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
         </div>
 
-        <Swiper spaceBetween={100} breakpoints={{
-          640: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 }
-        }}>
+        <Swiper
+          spaceBetween={100}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          className="flex"
+        >
           <SwiperSlide>
-            <Card image={screen1} description={findEventDesc} name={'Find Events'} />
+            <Card
+              image={screen1}
+              description={findEventDesc}
+              name={"Find Events"}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Card image={screen2} description={createEventDesc} name={'Create Events'} />
+            <Card
+              image={screen2}
+              description={createEventDesc}
+              name={"Create Events"}
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Card image={screen4} description={attendEventDesc} name={'Host Events'} />
+            <Card
+              image={screen4}
+              description={attendEventDesc}
+              name={"Host Events"}
+            />
           </SwiperSlide>
         </Swiper>
         {/* <HowItWorksMobileV /> */}
@@ -55,6 +80,9 @@ const HowItWorks = () => {
     </div>
   );
 };
+
+ 
+
 
 
 const findEventDesc = "Looking for something to do in your local area? With HAPNIN, you can easily find events that match your interests and location. Whether you're into music, sports, or food, HAPNIN's user-friendly interface makes it easy to browse and discover new events that are happening near you. Simply search by category or location, and you'll be on your way to discovering new and exciting events in no time"
