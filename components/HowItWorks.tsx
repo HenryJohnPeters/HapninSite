@@ -42,48 +42,58 @@ const HowItWorks = () => {
   const screen4 = require("../public/static/screen4.png");
 
   return (
-    <div className="w-full px-6 sm:px-10 py-9">
-      <div className="xl:mx-[6rem] 2xl:w-[1200px] 2xl:mx-auto">
-        <div className="mb-4">
-          <h2 className="font-bold text-2xl text-center mb-2">How HAPNIN works</h2>
-          <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
-        </div>
-
-        <Swiper
-          spaceBetween={100}
-          breakpoints={{
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-          }}
-          className="flex"
-          pagination={{ clickable: true }}
-        >
-          <SwiperSlide>
-            <Card
-              image={screen1}
-              description={findEventDesc}
-              name={"Find Events"}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              image={screen2}
-              description={createEventDesc}
-              name={"Create Events"}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card
-              image={screen4}
-              description={attendEventDesc}
-              name={"Host Events"}
-            />
-          </SwiperSlide>
-        </Swiper>
-        {/* <HowItWorksMobileV /> */}
-      </div>
+<div className="w-full px-6 sm:px-10 py-9">
+  <div className="xl:mx-[6rem] 2xl:w-[1200px] 2xl:mx-auto">
+    <div className="mb-4">
+      <h2 className="font-bold text-2xl text-center mb-2">How HAPNIN works</h2>
+      <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
     </div>
+
+    <Swiper
+      spaceBetween={100}
+      breakpoints={{
+        640: { slidesPerView: 1 },
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      }}
+      className="flex"
+      pagination={{
+        clickable: true,
+        el: ".swiper-pagination",
+        renderBullet: function (index, className) {
+          return `<span class="${className} inline-block w-3 h-3 rounded-full bg-green mr-2"></span>`;
+        },
+      }}
+    >
+      <SwiperSlide>
+        <Card
+          image={screen1}
+          description={findEventDesc}
+          name={"Find Events"}
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Card
+          image={screen2}
+          description={createEventDesc}
+          name={"Create Events"}
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <Card
+          image={screen4}
+          description={attendEventDesc}
+          name={"Host Events"}
+        />
+      </SwiperSlide>
+    </Swiper>
+    <div className="swiper-pagination mt-4 flex justify-center items-center">
+      <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white mr-2"></span>
+      <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white mr-2"></span>
+      <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white"></span>
+    </div>
+  </div>
+</div>
   );
 };
 
