@@ -10,14 +10,14 @@ const About = () => {
         <div className="mb-4">
           <h2 className="font-bold text-2xl">Who We Are</h2>
         </div>
-        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-3 md:gap-16">
           <div className="p-4 rounded-2xl border-[#70f1ae] border-[0.50px]">
             <div className="w-1/2 m-auto">
               <Image src={manImg} alt="man" className="rounded-full" />
             </div>
-            <div>
-              <h3 className="font-bold text-xl">Name</h3>
-              <p>
+            <div className="flex flex-col items-center ">
+              <h3 className="font-bold text-xl my-2">Name</h3>
+              <p className="text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -29,9 +29,9 @@ const About = () => {
             <div className="w-1/2 m-auto">
               <Image src={manImg} alt="man" className="rounded-full" />
             </div>
-            <div>
-              <h3 className="font-bold text-xl">Name</h3>
-              <p>
+            <div className="flex flex-col items-center ">
+              <h3 className="font-bold text-xl my-2">Name</h3>
+              <p className="text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -43,9 +43,9 @@ const About = () => {
             <div className="w-1/2 m-auto">
               <Image src={manImg} alt="man" className="rounded-full" />
             </div>
-            <div>
-              <h3 className="font-bold text-xl">Name</h3>
-              <p>
+            <div className="flex flex-col items-center ">
+              <h3 className="font-bold text-xl my-2">Name</h3>
+              <p className="text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
