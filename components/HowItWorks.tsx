@@ -14,7 +14,6 @@ const HowItWorks = () => {
         <div className="mb-4">
           <h2 className="font-bold text-2xl">How HAPNIN works</h2>
         </div>
-
         <HowItWorksMobileV />
       </div>
     </div>
