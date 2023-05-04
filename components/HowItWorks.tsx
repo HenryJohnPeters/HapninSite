@@ -12,9 +12,9 @@ interface Props {
 function Card({ name, image, description }: Props) {
   return (
     <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg flex">
-      <div className="relative flex-grow-1">
-        <Image width={250} height={200} src={image} alt="Coffee" objectFit="cover" />
-      </div>
+    
+        <Image width={2000} height={200} src={image} alt="Coffee" objectFit="cover" />
+   
       <div className="px-4 py-4 flex-shrink-0 w-96">
         <div className="font-medium mb-1">{name || "Coffee"}</div>
         <p className="text-gray-700 text-sm">{description}</p>
