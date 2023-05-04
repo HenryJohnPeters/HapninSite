@@ -10,6 +10,9 @@ const Partners = () => {
           <h2 className="font-bold text-2xl">Our Partners</h2>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
+
+
+
             
         </div>
       </div>
