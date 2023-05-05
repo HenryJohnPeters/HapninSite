@@ -22,54 +22,69 @@ const Hero = () => {
             </button>
           </div>
           <div className="w-full sm:w-1/2 mt-10 sm:mt-0">
-            <Image src={barbecue} alt="party" />
+            <Image 
+              src={barbecue} 
+              alt="party"
+              className="w-full rounded-lg shadow-lg hover:scale-105 transition-all duration-500"
+            />
           </div>
         </div>
 
-  <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-16 w-full">
-  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4">
-    <div className="w-full h-[200px] relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all">
-      <Image
-        src={neighbours}
-        alt="Connect with your neighbours"
-        className="h-[200px] object-cover hover:border-[#70f1ae] hover:border-2"
-      />
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-gray-900 via-transparent to-transparent flex items-center justify-center">
-        <h2 className="text-white font-bold text-lg lg:text-2xl p-4 text-center">
-          Connect with your neighbours
-        </h2>
+        <ImageGrid   />
       </div>
     </div>
-    <div className="w-full h-[200px] relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all">
-      <Image
-        src={charity}
-        alt="Support your local charity"
-        className="h-[200px] object-cover hover:border-[#70f1ae] hover:border-2"
-      />
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-gray-900 via-transparent to-transparent flex items-center justify-center">
-        <h2 className="text-white font-bold text-lg lg:text-2xl p-4 text-center">
-          Support your local charity
-        </h2>
+  );
+};
+
+
+const ImageGrid = () => {
+  return (
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-16 w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4">
+        <div className="w-full h-[200px] relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all">
+          <Image
+            src={neighbours}
+            alt="Connect with your neighbours"
+            className="h-full object-cover hover:border-[#70f1ae] hover:border-2"
+          />
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-green-500 to-blue-500 opacity-90"></div>
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
+            <h2 className="text-white font-bold text-lg lg:text-2xl p-4 text-center">
+              Connect with your neighbours
+            </h2>
+          </div>
+        </div>
+        <div className="w-full h-[200px] relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all">
+          <Image
+            src={charity}
+            alt="Support local charities"
+            className="h-full object-cover hover:border-green-500 hover:border-2"
+          />
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-green-500 to-blue-500 opacity-90"></div>
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
+            <h2 className="text-white font-bold text-lg lg:text-2xl p-4 text-center">
+              Support local charities
+            </h2>
+          </div>
+        </div>
+        <div className="w-full h-[200px] relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all">
+          <Image
+            src={event}
+            alt="Find local events"
+            className="h-full object-cover hover:border-[#f1c40f] hover:border-2"
+          />
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-green-500 to-blue-500 opacity-90"></div>
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
+            <h2 className="text-white font-bold text-lg lg:text-2xl p-4 text-center">
+              Find local events
+            </h2>
+          </div>
+        </div>
       </div>
     </div>
-    <div className="w-full h-[200px] relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all">
-      <Image
-        src={event}
-        alt="Support your local charity"
-        className="h-[200px] object-cover hover:border-[#70f1ae] hover:border-2"
-      />
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-gray-900 via-transparent to-transparent flex items-center justify-center">
-        <h2 className="text-white font-bold text-lg lg:text-2xl p-4 text-center">
-          Find events
-        </h2>
-      </div>
-    </div>
-  </div>
-</div>
-    </div>
-    </div>
-    )
-  }
+  );
+};
+
 
 
             export default Hero;

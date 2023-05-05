@@ -4,96 +4,91 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { Element } from "react-scroll";
 
-import screen1 from "../public/static/screen1.png";
-import screen2 from "../public/static/screen2.png";
-import screen4 from "../public/static/screen4.png";
-import map from "../public/static/map.png";
-import HowItWorksMobileV from "./HowItWorksMobileV";
-
 interface Props {
   name: string;
   description: string;
-  image: StaticImageData;
+ // image: StaticImageData;
 }
 
-function Card({ name, image, description }: Props) {
+function Card({ name, description }: Props) {
   return (
-    <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg flex">
-      <div className="w-1/3 sm:w-1/4">
-        <Image
-          width={2000}
-          height={200}
-          src={image}
-          alt="Coffee"
-          objectFit="cover"
-        />
+    <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg h-48 flex bg-white hover:bg-green-50 transition-colors duration-300">
+      <div className="relative w-1/3 sm:w-1/4 h-full overflow-hidden">
+        <div className="absolute inset-0 bg-green-50 transform -rotate-6 origin-top-left"></div>
+        <div className="absolute inset-0 bg-green-50 transform rotate-6 origin-top-right"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <div className="w-2/3 bg-green-200 h-px animate-pulse"></div>
+        </div>
       </div>
-      <div className="px-4 py-4 flex-shrink-0 w-2/3 sm:w-3/4">
-        <div className="font-medium mb-1 text-lg">{name || "Coffee"}</div>
-        <p className="text-gray-700 text-sm">{description}</p>
+      <div className="px-4 py-4 flex-shrink-0 w-2/3 sm:w-3/4 overflow-hidden">
+        <div className="font-medium mb-1 text-lg text-gray-800 hover:text-green-500 transition-colors duration-300">{name || "Coffee"}</div>
+        <p className="text-gray-700 text-sm overflow-hidden">{description}</p>
+        <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 mt-3 rounded-md transition-colors duration-300">Learn More</button>
       </div>
     </div>
   );
 }
 
+
+
+
 const HowItWorks = () => {
   const screen1 = require("../public/static/screen1.png");
   const screen2 = require("../public/static/screen2.png");
   const screen4 = require("../public/static/screen4.png");
-
   return (
-<div className="w-full px-6 sm:px-10 py-9">
-  <div className="xl:mx-[6rem] 2xl:w-[1200px] 2xl:mx-auto">
-    <div className="mb-4">
-      <h2 className="font-bold text-2xl text-center mb-2">How HAPNIN works</h2>
-      <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
-    </div>
+    <div className="w-full px-6 sm:px-10 py-9">
+      <div className="xl:mx-[6rem] 2xl:w-[1200px] 2xl:mx-auto">
+        <div className="mb-4">
+          <h2 className="font-bold text-2xl text-center mb-2">How HAPNIN works</h2>
+          <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
+        </div>
 
-    <Swiper
-      spaceBetween={100}
-      breakpoints={{
-        640: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 },
-      }}
-      className="flex"
-      pagination={{
-        clickable: true,
-        el: ".swiper-pagination",
-        renderBullet: function (index, className) {
-          return `<span class="${className} inline-block w-3 h-3 rounded-full bg-green mr-2"></span>`;
-        },
-      }}
-    >
-      <SwiperSlide>
-        <Card
-          image={screen1}
-          description={findEventDesc}
-          name={"Find Events"}
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Card
-          image={screen2}
-          description={createEventDesc}
-          name={"Create Events"}
-        />
-      </SwiperSlide>
-      <SwiperSlide>
-        <Card
-          image={screen4}
-          description={attendEventDesc}
-          name={"Host Events"}
-        />
-      </SwiperSlide>
-    </Swiper>
-    <div className="swiper-pagination mt-4 flex justify-center items-center">
-      <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white mr-2"></span>
-      <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white mr-2"></span>
-      <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white"></span>
+        <Swiper
+          spaceBetween={100}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          className="flex"
+          pagination={{
+            clickable: true,
+            el: ".swiper-pagination",
+            renderBullet: function (index, className) {
+              return `<span class="${className} inline-block w-3 h-3 rounded-full bg-green mr-2"></span>`;
+            },
+          }}
+        >
+          <SwiperSlide>
+            <Card
+              // image={screen1}
+              description={findEventDesc}
+              name={"Find Events"}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              // image={screen2}
+              description={createEventDesc}
+              name={"Create Events"}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <Card
+              // image={screen4}
+              description={attendEventDesc}
+              name={"Host Events"}
+            />
+          </SwiperSlide>
+        </Swiper>
+        <div className="swiper-pagination mt-4 flex justify-center items-center">
+          <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white mr-2"></span>
+          <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white mr-2"></span>
+          <span className="swiper-pagination-bullet inline-block w-3 h-3 rounded-full bg-white"></span>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
   );
 };
 
