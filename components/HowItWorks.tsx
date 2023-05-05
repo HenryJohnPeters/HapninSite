@@ -16,7 +16,7 @@ interface Props {
 
 function Card({ image, name, description }: Props) {
   return (
-    <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg flex hover:bg-green-50 transition-colors duration-300 items-center">
+    <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg flex flex-row hover:bg-green-50 transition-colors duration-300 bg-blue-400">
       {/* IMAGE */}
       <div className="relative w-1/3 sm:w-1/4 h-full overflow-hidden bg-black rounded-xl p-1">
         {/* <div className="absolute inset-0 bg-green-50 transform -rotate-6 origin-top-left"></div>
@@ -31,12 +31,13 @@ function Card({ image, name, description }: Props) {
         {/* </div>
         </div> */}
       </div>
+
       {/* TEXT */}
-      <div className="px-4 py-4 flex-shrink-0 w-2/3 sm:w-3/4 overflow-hidden">
+      <div className="p-6 flex-shrink-0 w-2/3 sm:w-3/4 overflow-hidden bg-red-400">
         <div className="font-medium mb-1 text-lg text-gray-800 hover:text-green-500 transition-colors duration-300">
           {name || "Coffee"}
         </div>
-        <p className="text-gray-700 text-sm overflow-hidden">{description}</p>
+        <p className="text-gray-700 text-2 overflow-hidden">{description}</p>
         {/* <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 mt-3 rounded-md transition-colors duration-300">
           Learn More
         </button> */}
@@ -113,15 +114,15 @@ const HowItWorks = () => {
 };
 
 const findEventDescShort =
-  "Looking for something to do in your local area? With HAPNIN, you can easily find events that match your interests and location. Whether you're into music, sports, or food, HAPNIN's user-friendly interface makes it easy to browse and discover new events that are happening near you.";
+  "Looking for something to do in your local area? With HAPNIN, you can easily find events that match your interests and location.";
 const findEventDesc =
   "Looking for something to do in your local area? With HAPNIN, you can easily find events that match your interests and location. Whether you're into music, sports, or food, HAPNIN's user-friendly interface makes it easy to browse and discover new events that are happening near you. Simply search by category or location, and you'll be on your way to discovering new and exciting events in no time";
 const createEventDescShort =
-  "Looking to bring people together for a fun and exciting event? HAPNIN makes it easy to host events that are tailored to your interests and goals. Whether you're planning a birthday party, charity event, or conference, HAPNIN provides all the tools and resources you need to create an engaging and successful event.";
+  "Looking to bring people together for a fun and exciting event? HAPNIN makes it easy to host events that are tailored to your interests and goals.";
 const createEventDesc =
   "Looking to bring people together for a fun and exciting event? HAPNIN makes it easy to host events that are tailored to your interests and goals. Whether you're planning a birthday party, charity event, or conference, HAPNIN provides all the tools and resources you need to create an engaging and successful event. From event promotion to ticket sales, HAPNIN has you covered every step of the way.";
 const attendEventDescShort =
-  "Love attending events, but hate the hassle of buying tickets and organizing logistics? With HAPNIN, attending events has never been easier. Our streamlined process lets you easily purchase tickets and coordinate with friends and family, so you can focus on enjoying the event itself.";
+  "Love attending events, but hate the hassle of buying tickets and organizing logistics? With HAPNIN, attending events has never been easier.";
 const attendEventDesc =
   "Love attending events, but hate the hassle of buying tickets and organizing logistics? With HAPNIN, attending events has never been easier. Our streamlined process lets you easily purchase tickets and coordinate with friends and family, so you can focus on enjoying the event itself. Plus, with helpful features like event reminders and in-app messaging, you'll always stay in the loop and be able to make the most of your event experience.";
 

@@ -24,7 +24,7 @@ const NavBar = () => {
           <div className="flex items-center">
             <h1 className="text-3xl font-bold mr-4">HAPNIN</h1>
             <div className="flex gap-2">
-              <a href="https://www.instagram.com/your_instagram_page/">
+              <a href="https://www.facebook.com/hapninuk/">
                 <FaFacebook className="text-2xl mr-2 hover:text-[#70f1ae]" />
               </a>
               <a href="https://www.instagram.com/hapninuk">
@@ -33,7 +33,7 @@ const NavBar = () => {
               <a href="https://www.twitter.com/HapninUK/">
                 <FaTwitter className="text-2xl mr-2 hover:text-[#70f1ae]" />
               </a>
-              <a href="https://www.tiktok.com/your_instagram_page/">
+              <a href="https://www.tiktok.com/@hapninuk">
                 <FaTiktok className="text-2xl mr-2 hover:text-[#70f1ae]" />
               </a>
             </div>

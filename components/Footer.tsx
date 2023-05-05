@@ -17,7 +17,7 @@ const Footer = () => {
             <a href="https://www.twitter.com/HapninUK/">
               <FaTwitter className="text-2xl mr-2 hover:text-[#70f1ae]" />
             </a>
-            <a href="https://www.tiktok.com/your_instagram_page/">
+            <a href="https://www.tiktok.com/@hapninuk">
               <FaTiktok className="text-2xl mr-2 hover:text-[#70f1ae]" />
             </a>
           </div>
