@@ -8,10 +8,10 @@ const Partners = () => {
   return (
     <>
       <Element name="partners" />
-      <div className="bg--[#70f1ae]   py-16">
+      <div className="bg-gradient-to-br from-[#70f1ae] to-[#70f1ae]   py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-800">Our Partners</h2>
+            <h2 className="text-3xl font-bold text-black">Our Partners</h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">

@@ -12,8 +12,8 @@ interface Props {
 
 function Card({ name, description }: Props) {
   return (
-    <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg h-48 flex bg-white hover:bg-green-50 transition-colors duration-300">
-      <div className="relative w-1/3 sm:w-1/4 h-full overflow-hidden">
+    <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-xxl h-100 flex bg-white hover:bg-green-50 transition-colors duration-300">
+      <div className="relative w-full sm:w-1/4 h-full overflow-hidden">
         <div className="absolute inset-0 bg-green-50 transform -rotate-6 origin-top-left"></div>
         <div className="absolute inset-0 bg-green-50 transform rotate-6 origin-top-right"></div>
         <div className="absolute inset-0 flex items-center justify-center">
@@ -23,7 +23,7 @@ function Card({ name, description }: Props) {
       <div className="px-4 py-4 flex-shrink-0 w-2/3 sm:w-3/4 overflow-hidden">
         <div className="font-medium mb-1 text-lg text-gray-800 hover:text-green-500 transition-colors duration-300">{name || "Coffee"}</div>
         <p className="text-gray-700 text-sm overflow-hidden">{description}</p>
-        <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 mt-3 rounded-md transition-colors duration-300">Learn More</button>
+        {/* <button className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 mt-3 rounded-md transition-colors duration-300">Learn More</button> */}
       </div>
     </div>
   );
