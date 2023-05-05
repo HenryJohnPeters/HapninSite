@@ -13,11 +13,11 @@ const ImageGrid = () => {
           <Image
             src={neighbours}
             alt="Connect with your neighbours"
-            className="h-full object-cover hover:border-[#70f1ae] hover:border-2"
+            className="h-full object-cover"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-green-500 to-blue-500 opacity-60"></div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
-            <h2 className="text-black font-bold text-lg lg:text-2xl p-4 text-center">
+            <h2 className="text-white font-bold text-lg lg:text-2xl p-4 text-center">
               Connect with your neighbours
             </h2>
           </div>
@@ -26,7 +26,7 @@ const ImageGrid = () => {
           <Image
             src={charity}
             alt="Support local charities"
-            className="h-full object-cover hover:border-green-500 hover:border-2"
+            className="h-full object-cover"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-green-500 to-blue-500 opacity-60"></div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
@@ -39,7 +39,7 @@ const ImageGrid = () => {
           <Image
             src={event}
             alt="Find local events"
-            className="h-full object-cover hover:border-[#f1c40f] hover:border-2"
+            className="h-full object-cover"
           />
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-green-500 to-blue-500 opacity-60"></div>
           <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
