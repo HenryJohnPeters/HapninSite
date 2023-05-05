@@ -14,7 +14,7 @@ const About = () => {
             <h2 className="font-bold text-2xl">Who We Are</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16">
-            <div className="p-4 rounded-2xl border border-[0.50px] border-[#70f1ae] hover:bg-[#70f1ae] hover:text-black transition-colors duration-300">
+            <div className="p-4 rounded-2xl border-[0.50px] border-[#70f1ae] hover:bg-[#70f1ae] hover:text-black transition-colors duration-300">
               <div className="w-1/2 mx-auto mb-4">
                 <Image src={manImg} alt="man" className="rounded-full" />
               </div>
@@ -28,7 +28,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="p-4 rounded-2xl border border-[0.50px] border-[#70f1ae] hover:bg-[#70f1ae] hover:text-black transition-colors duration-300">
+            <div className="p-4 rounded-2xl border-[0.50px] border-[#70f1ae] hover:bg-[#70f1ae] hover:text-black transition-colors duration-300">
               <div className="w-1/2 mx-auto mb-4">
                 <Image src={manImg} alt="man" className="rounded-full" />
               </div>
@@ -42,7 +42,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="p-4 rounded-2xl border border-[0.50px] border-[#70f1ae] hover:bg-[#70f1ae] hover:text-black transition-colors duration-300">
+            <div className="p-4 rounded-2xl border-[0.50px] border-[#70f1ae] hover:bg-[#70f1ae] hover:text-black transition-colors duration-300">
               <div className="w-1/2 mx-auto mb-4">
                 <Image src={manImg} alt="man" className="rounded-full" />
               </div>

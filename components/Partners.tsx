@@ -13,7 +13,6 @@ interface Props {
 const basePath = "/static/partners"
 
 function PartnerCard({ image, name, description }: Props) {
-  console.log(image)
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
       <div className="relative">
