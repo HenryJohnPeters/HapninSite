@@ -60,11 +60,12 @@ const Partners = () => {
               </div>
             </div> */}
 
-            {partners.map((partner) => (
+            {partners.map((partner, idx) => (
               <PartnerCard
                 image={partner.image}
                 name={partner.name}
                 description={partner.description}
+                key={idx}
               />
             ))}
             {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
