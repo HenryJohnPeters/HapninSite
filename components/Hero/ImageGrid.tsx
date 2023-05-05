@@ -7,7 +7,7 @@ import neighbours from "../../public/static/neighbours.jpg";
 
 const ImageGrid = () => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-16 w-full">
+    <div className="bg-white rounded-lg shadow-lg overflow-hidden mt-16 sm:mt-0 w-full">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 p-4">
         <div className="w-full h-[200px] relative overflow-hidden rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all">
           <Image

@@ -9,10 +9,10 @@ const Hero = () => {
   return (
     <>
       <Element name="hero" />
-      <div className="bg-gradient-to-br from-green-500 to-blue-500 w-full min-h-screen flex flex-col justify-center items-center py-[6rem] px-6 sm:px-10 lg:px-20">
-        <div className="mx-auto sm:mx-4 md:mx-12 lg:mx-0 lg:w-1/2 xl:w-[800px] 2xl:w-[1200px]">
-          <div className="flex flex-col sm:flex-row justify-between items-center sm:py-12">
-            <div className="flex flex-col justify-center sm:w-1/2">
+      <div className="bg-gradient-to-br from-green-500 to-blue-500 w-full min-h-screen flex flex-col justify-center items-center py-[6rem] sm:py-[3.5rem] px-6 sm:px-10">
+        <div className="mx-auto sm:mx-4 md:mx-12 lg:mx-0 lg:w-3/4 2xl:w-[1200px]">
+          <div className="flex flex-col sm:flex-row justify-between items-center sm:pt-12 sm:pb-4 md:mb-6 lg:mb-8 2xl:pb-12">
+            <div className="flex flex-col justify-center sm:w-1/2 sm:p-2">
               <h1 className="font-bold text-3xl lg:text-4xl text-white mb-6 leading-tight">
                 The platform - where people are brought together
               </h1>
@@ -26,7 +26,7 @@ const Hero = () => {
                 Get Started
               </button>
             </div>
-            <div className="w-full sm:w-1/2 mt-10 sm:mt-0 p-1">
+            <div className="w-full sm:w-1/2 mt-10 sm:mt-0 p-1 sm:p-8">
               <Image
                 src={barbecue}
                 alt="party"
