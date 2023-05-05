@@ -8,17 +8,17 @@ const Footer = () => {
         <div className="col-span-2 md:col-span-1">
           <h2 className="mb-4">Follow us</h2>
           <div className="flex gap-2">
-          <a href="https://www.instagram.com/your_instagram_page/">
-            <FaFacebook className="text-2xl mr-2 hover:text-[#70f1ae]" />
-            </a>
             <a href="https://www.instagram.com/your_instagram_page/">
-            <FaInstagram className="text-2xl mr-2 hover:text-[#70f1ae]" />
+              <FaFacebook className="text-2xl mr-2 hover:text-[#70f1ae]" />
             </a>
-            <a href="https://www.instagram.com/your_instagram_page/">
-            <FaTwitter className="text-2xl mr-2 hover:text-[#70f1ae]" />
+            <a href="https://www.instagram.com/hapninuk">
+              <FaInstagram className="text-2xl mr-2 hover:text-[#70f1ae]" />
             </a>
-            <a href="https://www.instagram.com/your_instagram_page/">
-            <FaTiktok className="text-2xl mr-2 hover:text-[#70f1ae]" />
+            <a href="https://www.twitter.com/HapninUK/">
+              <FaTwitter className="text-2xl mr-2 hover:text-[#70f1ae]" />
+            </a>
+            <a href="https://www.tiktok.com/your_instagram_page/">
+              <FaTiktok className="text-2xl mr-2 hover:text-[#70f1ae]" />
             </a>
           </div>
         </div>
@@ -47,6 +47,5 @@ const Footer = () => {
     </div>
   );
 };
-
 
 export default Footer;
