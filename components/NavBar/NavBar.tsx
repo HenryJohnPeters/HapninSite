@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaFacebook, FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
-import DownloadAppCTA from "./DownloadAppCTA";
+import DownloadAppCTA from "../DownloadAppCTA";
 
 const NavBar = () => {
   const [openNavMenu, setOpenNavMenu] = useState(false);

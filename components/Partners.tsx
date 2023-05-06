@@ -3,7 +3,6 @@ import Image, { StaticImageData } from "next/image";
 import { Element } from "react-scroll";
 import partners from "../partners/partners.json";
 import { FaFacebook, FaInstagram} from "react-icons/fa";
-import slice_of_dice from "../public/static/partners/slice_of_dice.jpeg";
 
 interface Props {
   name: string;
