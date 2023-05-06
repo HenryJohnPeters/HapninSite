@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaFacebook, FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
+
 import DownloadAppCTA from "../DownloadAppCTA";
+import MobileViewNavMenu from "./MobileViewNavMenu";
+import SocialLinks from "../SocialLinks";
 
 const NavBar = () => {
   const [openNavMenu, setOpenNavMenu] = useState(false);
@@ -11,32 +14,13 @@ const NavBar = () => {
     setOpenNavMenu(!openNavMenu);
   };
 
-  const handleClosenavMenu = () => {
-    setOpenNavMenu(!openNavMenu);
-  };
-
   return (
     <div className="w-screen h-[80px] z-10 fixed bg-white drop-shadow-md">
-      {/* DESKTOP NAV BAR */}
       <div className="flex justify-between items-center px-4 w-full h-full">
-        {/* LOGO + NAV */}
         <div className="flex items-center w-full justify-between">
           <div className="flex items-center">
             <h1 className="text-3xl font-bold mr-4">HAPNIN</h1>
-            <div className="flex gap-2">
-              <a href="https://www.facebook.com/hapninuk/">
-                <FaFacebook className="text-2xl mr-2 hover:text-[#70f1ae]" />
-              </a>
-              <a href="https://www.instagram.com/hapninuk">
-                <FaInstagram className="text-2xl mr-2 hover:text-[#70f1ae]" />
-              </a>
-              <a href="https://www.twitter.com/HapninUK/">
-                <FaTwitter className="text-2xl mr-2 hover:text-[#70f1ae]" />
-              </a>
-              <a href="https://www.tiktok.com/@hapninuk">
-                <FaTiktok className="text-2xl mr-2 hover:text-[#70f1ae]" />
-              </a>
-            </div>
+            <SocialLinks />
           </div>
           <div>
             <ul className="hidden md:flex">
@@ -57,14 +41,14 @@ const NavBar = () => {
               </li>
               <li>
                 <Link to="partners" smooth={true} duration={500} offset={-140}>
-                  Partners
+                  Our Partners
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="about" smooth={true} duration={500} offset={-160}>
                   Who We Are
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -79,55 +63,10 @@ const NavBar = () => {
           )}
         </div>
       </div>
-
-      {/* MOBILE VIEW NAV MENU */}
-      <div>
-        <ul
-          className={openNavMenu ? "absolute w-full px-8 bg-white" : "hidden"}
-        >
-          <li className="border-b-2">
-            <Link
-              to="hero"
-              smooth={true}
-              duration={500}
-              onClick={() => handleClosenavMenu()}
-            >
-              Home
-            </Link>
-          </li>
-          <li className="border-b-2">
-            <Link
-              to="howItWorks"
-              smooth={true}
-              duration={500}
-              onClick={() => handleClosenavMenu()}
-            >
-              How it works
-            </Link>
-          </li>
-          <li className="border-b-2">
-            <Link
-              to="partners"
-              smooth={true}
-              duration={500}
-              onClick={() => handleClosenavMenu()}
-            >
-              Partners
-            </Link>
-          </li>
-          <li className="border-b-2">
-            <Link
-              to="about"
-              smooth={true}
-              duration={500}
-              onClick={() => handleClosenavMenu()}
-            >
-              Who We Are
-            </Link>
-          </li>
-          <DownloadAppCTA style="flex" />
-        </ul>
-      </div>
+      <MobileViewNavMenu
+        openNavMenu={openNavMenu}
+        setOpenNavMenu={setOpenNavMenu}
+      />
     </div>
   );
 };
