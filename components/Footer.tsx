@@ -1,26 +1,14 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
+import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-24 bg-[#111827] text-gray-300 px-4 py-2">
+    <div className="w-full bg-[#111827] text-gray-300 px-4 py-2">
       <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8 gap-2 sm:gap-0">
         <div className="col-span-2 md:col-span-1">
           <h2 className="mb-4">Follow us</h2>
-          <div className="flex gap-2">
-            <a href="https://www.instagram.com/your_instagram_page/">
-              <FaFacebook className="text-2xl mr-2 hover:text-[#70f1ae]" />
-            </a>
-            <a href="https://www.instagram.com/hapninuk">
-              <FaInstagram className="text-2xl mr-2 hover:text-[#70f1ae]" />
-            </a>
-            <a href="https://www.twitter.com/HapninUK/">
-              <FaTwitter className="text-2xl mr-2 hover:text-[#70f1ae]" />
-            </a>
-            <a href="https://www.tiktok.com/@hapninuk">
-              <FaTiktok className="text-2xl mr-2 hover:text-[#70f1ae]" />
-            </a>
-          </div>
+          <SocialLinks />
         </div>
         <div className="col-span-2 md:col-span-1">
           {/* <h6 className="font-bold uppercase pt-2">Index</h6>

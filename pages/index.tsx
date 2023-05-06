@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Manrope } from "next/font/google";
-import NavBar from "@/components/NavBar";
+import NavBar from "@/components/NavBar/NavBar";
 import Hero from "@/components/Hero/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import Partners from "@/components/Partners";
