@@ -6,14 +6,14 @@ import event from "../../public/static/event.jpg";
 import neighbours from "../../public/static/neighbours.jpg";
 const ImageGrid = () => {
   return (
-<div className="py-10">
+<div className="py-10 bg-[#70f1ae]">
   <h2 className="text-3xl font-bold mb-10 text-center">Get the most out of your community!</h2>
   <div className="flex flex-wrap justify-center gap-4">
     <div className="bg-white rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-purple-50">
       <i className="fas fa-percent text-4xl text-purple-500 mb-4 animate-bounce-on-hover"></i>
       <h3 className="text-lg font-bold text-center uppercase tracking-wider hover:text-purple-600">Exclusive Discounts & Offers</h3>
       <p className="text-base font-medium text-center mt-4 hover:text-purple-600">Save on local events and activities.</p>
-      
+
     </div>
     <div className="bg-white rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-blue-50">
       <i className="fas fa-globe-americas text-4xl text-blue-500 mb-4 animate-bounce-on-hover"></i>
