@@ -7,20 +7,26 @@ import { FaFacebook, FaInstagram} from "react-icons/fa";
 interface Props {
   name: string;
   description: string;
-  image: string | StaticImageData;
+  image: StaticImageData | string;
   instagramUrl?: string;
-  facebookUrl?: string
+  facebookUrl?: string;
 }
 const basePath = "/static/partners"
 
-function PartnerCard({ image, name, description,instagramUrl,facebookUrl }: Props) {
+const PartnerCard = ({
+  image,
+  name,
+  description,
+  instagramUrl,
+  facebookUrl,
+}: Props) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
       <div className="relative bg-black">
         <Image
           src={image}
           alt="partner"
-          className="w-full h-48   rounded-lg filter brightness-125 hover:brightness-100"
+          className="object-contain w-full h-48 rounded-lg filter brightness-125 hover:brightness-100"
           width={500}
           height={500}
         />
@@ -28,26 +34,31 @@ function PartnerCard({ image, name, description,instagramUrl,facebookUrl }: Prop
       </div>
       <div className="p-4 text-center">
         <p className="text-sm font-medium">{name}</p>
-        <p className="text-xs text-gray-500">{description}</p>
+        <p className="text-sm text-gray-500">{description}</p>
       </div>
-      <div className="p-4 text-center flex justify-center items-center space-x-4">
-  <a
-    href={facebookUrl}
-    className="text-2xl hover:text-[#70f1ae] transition-colors duration-300 cursor-pointer"
-  >
-    <FaFacebook />
-  </a>
-  <a
-    href={instagramUrl}
-    className="text-2xl hover:text-[#70f1ae] transition-colors duration-300 cursor-pointer"
-  >
-    <FaInstagram />
-  </a>
-</div>
-
+      {(instagramUrl || facebookUrl) && (
+        <div className="p-4 text-center flex justify-center items-center space-x-4">
+          {facebookUrl && (
+            <a
+              href={facebookUrl}
+              className="text-2xl hover:text-[#70f1ae] transition-colors duration-300 cursor-pointer"
+            >
+              <FaFacebook />
+            </a>
+          )}
+          {instagramUrl && (
+            <a
+              href={instagramUrl}
+              className="text-2xl hover:text-[#70f1ae] transition-colors duration-300 cursor-pointer"
+            >
+              <FaInstagram />
+            </a>
+          )}
+        </div>
+      )}
     </div>
   );
-}
+};
 
 const Partners = () => {
   return (
@@ -62,7 +73,7 @@ const Partners = () => {
           <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {partners.map((partner, idx) => (
               <PartnerCard
-                image={`${basePath}/${partner.image}`}
+              image={`${basePath}/${partner.image}`}
                 name={partner.name}
                 description={partner.description}
                 facebookUrl={partner.facebookUrl}

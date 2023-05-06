@@ -1,5 +1,12 @@
 [
   {
+    "name": "Juniper Lounge",
+    "description": "Juniper Lounge Bournemouth is a lively and stylish bar with a gin-centric concept, perfect for students. It offers an impressive range of gins, beers, and cocktails at affordable prices, as well as hosting exciting events including music, beer pong and large screen projector for sports games.",
+    "image": "juniper_lounge.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
+  },
+  {
     "name": "The Four Horsemen",
     "description": "Four Horsemen is the ultimate destination for foodies and fun-seekers in Bournemouth. Enjoy delicious pub grub, vegan options, and exciting events such as themed parties, live music, and quiz nights for an unforgettable night out!",
     "image": "the_four_horsemen.png",
@@ -12,13 +19,6 @@
     "image": "dna.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/DNABOURNEMOUTH/?locale=en_GB"
-  },
-  {
-    "name": "Juniper Lounge",
-    "description": "Juniper Lounge Bournemouth is a lively and stylish bar with a gin-centric concept, perfect for students. It offers an impressive range of gins, beers, and cocktails at affordable prices, as well as hosting exciting events including music, beer pong and large screen projector for sports games.",
-    "image": "juniper_lounge.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
   },
   {
     "name": "Slice of Dice",
@@ -61,26 +61,33 @@
     "facebookUrl":"https://www.facebook.com/SaxoBarBmth/"
     
   },
-  
+
   {
     "name": "Poole Hill brewery",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "description": "Poole Hill Brewery is a microbrewery based in Bournemouth that produces a range of high-quality beers and ales using traditional brewing methods. The brewery has a taproom where customers can sample their creations, and also offers brewery tours and events. Customers can also enjoy a range of live music events.",
     "image": "poole_hill_brewery.png",
     "instagramUrl":"",
     "facebookUrl":"https://en-gb.facebook.com/poolehillbrewery/"
   },
   {
     "name": "Pondok Fresh Falafel and juice",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "description": "Pondok Falafel & Juice in Bournemouth offers an authentic taste of The Middle East, with a menu filled with fresh and flavorful dishes made using traditional recipes. Even better customers can enjoy exclusive walk-in offers via Hapnin. The restaurant's cozy and inviting atmosphere makes it the perfect spot for a casual meal with friends or family.",
     "image": "pondok.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/pondok.falafel/"
   },
   {
     "name": "Earthling",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "description": "Earthling Food is a 100% vegan cafe in Bournemouth that offers delicious and healthy food made from locally-sourced ingredients. Customers who use the Hapnin app can enjoy exclusive walk-in offers and discounts on their meals. The menu features a range of plant-based dishes, including burgers, salads, smoothies, and raw desserts. The cafe's welcoming and eco-friendly atmosphere makes it the perfect spot for a quick lunch or a relaxed brunch.",
     "image": "earthlings.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/earthlingfooduk/"
+  },
+  {
+    "name": "SupDog",
+    "description": "Supdog is a premier stand-up paddleboard shop that provides high-quality paddleboards and accessories to help customers enjoy the ultimate paddling experience. They offer a wide selection of boards for all skill levels, as well as expert advice and top-notch customer service.",
+    "image": "supdog.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/SupDogRentals/"
   }
 ]
