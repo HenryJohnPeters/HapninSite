@@ -13,6 +13,7 @@ const ImageGrid = () => {
       <i className="fas fa-percent text-4xl text-purple-500 mb-4 animate-bounce-on-hover"></i>
       <h3 className="text-lg font-bold text-center uppercase tracking-wider hover:text-purple-600">Exclusive Discounts & Offers</h3>
       <p className="text-base font-medium text-center mt-4 hover:text-purple-600">Save on local events and activities.</p>
+      
     </div>
     <div className="bg-white rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-blue-50">
       <i className="fas fa-globe-americas text-4xl text-blue-500 mb-4 animate-bounce-on-hover"></i>
