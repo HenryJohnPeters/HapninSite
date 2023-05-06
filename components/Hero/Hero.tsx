@@ -16,6 +16,7 @@ const Hero = () => {
               <h1 className="font-bold text-3xl lg:text-4xl text-black mb-6 leading-tight">
                 The platform - where people are brought together
               </h1>
+              
               <p className="text-lg text-black mb-8">
                 At <span className="font-bold">HAPNIN</span>, we believe that
                 local events and activities are the heart of any community.
