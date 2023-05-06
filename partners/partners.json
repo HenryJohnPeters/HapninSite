@@ -1,8 +1,24 @@
 [
   {
-    "name": "Slice of Dice",
+    "name": "The Four Horsemen",
     "description": "Description of the partner goes here.",
-    "image": "slice_of_dice.jpeg"
+    "image": "the_four_horsemen.png",
+    "instagramUrl":"https://instagram.com/thefourhorsemenpub?igshid=NTc4MTIwNjQ2YQ==",
+    "facebookUrl":"https://www.facebook.com/fourhorsemenpub/?locale=en_GB"
+  },
+  {
+    "name": "DNA",
+    "description": "Description of the partner goes here.",
+    "image": "dna.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/DNABOURNEMOUTH/?locale=en_GB"
+  },
+  {
+    "name": "Juniper Lounge",
+    "description": "Description of the partner goes here.",
+    "image": "juniper_lounge.jpg",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
   },
   {
     "name": "Slice of Dice",
@@ -10,23 +26,44 @@
     "image": "slice_of_dice.jpeg"
   },
   {
-    "name": "Slice of Dice",
+    "name": "Smoking Aces",
     "description": "Description of the partner goes here.",
-    "image": "slice_of_dice.jpeg"
+    "image": "smoking_aces.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/SmokinAcesOfficial/"
   },
   {
-    "name": "Slice of Dice",
+    "name": "Pause Cat Cafe",
     "description": "Description of the partner goes here.",
-    "image": "slice_of_dice.jpeg"
+    "image": "pause_cat_cafe.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/pausecatcafe/?locale=en_GB"
   },
   {
-    "name": "Slice of Dice",
+    "name": "Flirt Cafe",
     "description": "Description of the partner goes here.",
-    "image": "slice_of_dice.jpeg"
+    "image": "flirt.webp",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/Flirtcafebar/"
   },
   {
-    "name": "Slice of Dice",
+    "name": "1812",
     "description": "Description of the partner goes here.",
-    "image": "slice_of_dice.jpeg"
+    "image": "1812.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/1812Bournemouth/?locale=en_GB"
+  },
+  {
+    "name": "Saxo",
+    "description": "Description of the partner goes here.",
+    "image": "saxo.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/SaxoBarBmth/"
+    
+  },
+  {
+    "name": "99 Perk Cocktail Bar",
+    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "image": "99_perk.png"
   }
 ]

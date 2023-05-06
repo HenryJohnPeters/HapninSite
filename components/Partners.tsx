@@ -2,26 +2,28 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 import { Element } from "react-scroll";
 import partners from "../partners/partners.json";
-
+import { FaFacebook, FaInstagram} from "react-icons/fa";
 import slice_of_dice from "../public/static/partners/slice_of_dice.jpeg";
 
 interface Props {
   name: string;
   description: string;
   image: string | StaticImageData;
+  instagramUrl?: string;
+  facebookUrl?: string
 }
 const basePath = "/static/partners"
 
-function PartnerCard({ image, name, description }: Props) {
+function PartnerCard({ image, name, description,instagramUrl,facebookUrl }: Props) {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-      <div className="relative">
+      <div className="relative bg-black">
         <Image
           src={image}
           alt="partner"
           className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-          width={200}
-          height={200}
+          width={500}
+          height={500}
         />
         <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
       </div>
@@ -29,6 +31,21 @@ function PartnerCard({ image, name, description }: Props) {
         <p className="text-sm font-medium">{name}</p>
         <p className="text-xs text-gray-500">{description}</p>
       </div>
+      <div className="p-4 text-center flex justify-center items-center space-x-4">
+  <a
+    href={facebookUrl}
+    className="text-2xl hover:text-[#70f1ae] transition-colors duration-300 cursor-pointer"
+  >
+    <FaFacebook />
+  </a>
+  <a
+    href={instagramUrl}
+    className="text-2xl hover:text-[#70f1ae] transition-colors duration-300 cursor-pointer"
+  >
+    <FaInstagram />
+  </a>
+</div>
+
     </div>
   );
 }
@@ -44,175 +61,16 @@ const Partners = () => {
             <hr className="border-b-2 border-white mx-auto w-20" />
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div> */}
-
             {partners.map((partner, idx) => (
               <PartnerCard
                 image={`${basePath}/${partner.image}`}
                 name={partner.name}
                 description={partner.description}
+                facebookUrl={partner.facebookUrl}
+                instagramUrl={partner.instagramUrl}
                 key={idx}
               />
             ))}
-            {/* <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105">
-              <div className="relative">
-                <Image
-                  src={slice_of_dice}
-                  alt="partner"
-                  className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
-                />
-                <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
-              </div>
-              <div className="p-4 text-center">
-                <p className="text-sm font-medium">Partner</p>
-                <p className="text-xs text-gray-500">
-                  Description of the partner goes here.
-                </p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
