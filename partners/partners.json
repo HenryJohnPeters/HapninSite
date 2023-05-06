@@ -16,14 +16,14 @@
   {
     "name": "Juniper Lounge",
     "description": "Description of the partner goes here.",
-    "image": "juniper_lounge.jpg",
+    "image": "juniper_lounge.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
   },
   {
     "name": "Slice of Dice",
     "description": "Description of the partner goes here.",
-    "image": "slice_of_dice.jpeg"
+    "image": "slice_of_dice.png"
   },
   {
     "name": "Smoking Aces",
@@ -62,8 +62,24 @@
     
   },
   {
-    "name": "99 Perk Cocktail Bar",
+    "name": "Poole Hill brewery",
     "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
-    "image": "99_perk.png"
+    "image": "poole_hill_brewery.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://en-gb.facebook.com/poolehillbrewery/"
+  },
+  {
+    "name": "Pondok Fresh Falafel and juice",
+    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "image": "pondok.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/pondok.falafel/"
+  },
+  {
+    "name": "Earthling",
+    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "image": "earthlings.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/earthlingfooduk/"
   }
 ]

@@ -21,7 +21,7 @@ function PartnerCard({ image, name, description,instagramUrl,facebookUrl }: Prop
         <Image
           src={image}
           alt="partner"
-          className="w-full h-48 object-cover rounded-lg filter brightness-125 hover:brightness-100"
+          className="w-full h-48   rounded-lg filter brightness-125 hover:brightness-100"
           width={500}
           height={500}
         />
@@ -60,7 +60,7 @@ const Partners = () => {
             <h2 className="text-3xl font-bold text-black mb-2">Our Partners</h2>
             <hr className="border-b-2 border-white mx-auto w-20" />
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {partners.map((partner, idx) => (
               <PartnerCard
                 image={`${basePath}/${partner.image}`}
