@@ -17,6 +17,7 @@ const Hero = () => {
                 The platform - where people are brought together
               </h1>
               
+
               <p className="text-lg text-black mb-8">
                 At <span className="font-bold">HAPNIN</span>, we believe that
                 local events and activities are the heart of any community.
