@@ -13,12 +13,12 @@ const Hero = () => {
         <div className="mx-auto sm:mx-4 md:mx-12 lg:mx-0 lg:w-3/4 2xl:w-[1200px]">
           <div className="flex flex-col sm:flex-row justify-between items-center sm:pt-12 sm:pb-4 md:mb-6 lg:mb-8 2xl:pb-12">
             <div className="flex flex-col justify-center sm:w-1/2 sm:p-2">
-            <h1 className="font-bold text-3xl lg:text-4xl text-black mb-6 leading-tight">
-              The app that helps you find out what's HAPNIN in your area!
-                </h1>
+              <h1 className="font-bold text-3xl lg:text-4xl text-black mb-6 leading-tight">
+                The app that helps you find out what&apos;s HAPNIN in your area!
+              </h1>
 
               <p className="text-lg text-black mb-8">
-                 <span className="font-bold">HAPNIN</span> is an event discovery app that offers user-generated events and verified partner events in your area. The app's easy-to-use map-based interface makes it simple to find things to do and exclusive discounts. Download HAPNIN now to plan your next night out with friends and create memories that last a lifetime!
+                <span className="font-bold">HAPNIN</span> is an event discovery app that offers user-generated events and verified partner events in your area. The app&apos;s easy-to-use map-based interface makes it simple to find things to do and exclusive discounts. Download HAPNIN now to plan your next night out with friends and create memories that last a lifetime!
               </p>
               <button className="bg-white m-2 text-black hover:text-[#70f1ae] hover:bg-black rounded-full py-3 px-6 font-bold shadow-lg transition-all duration-200">
                 Download for IOS (Coming soon 🕑)
