@@ -25,10 +25,10 @@ const Hero = () => {
                 free and low cost events in your area.
               </p>
               <button className="bg-white m-2 text-black hover:text-[#70f1ae] hover:bg-black rounded-full py-3 px-6 font-bold shadow-lg transition-all duration-200">
-                Download for IOS
+                Download for IOS (Coming soon 🕑)
               </button>
               <button className="bg-white m-2 text-black hover:text-[#70f1ae] hover:bg-black rounded-full py-3 px-6 font-bold shadow-lg transition-all duration-200">
-                Download for Android
+                Download for Android (Coming soon 🕑)
               </button>
             </div>
             <div className="w-full sm:w-1/2 mt-10 sm:mt-0 p-1 sm:p-8">
