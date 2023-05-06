@@ -60,7 +60,7 @@ const Partners = () => {
             <h2 className="text-3xl font-bold text-black mb-2">Our Partners</h2>
             <hr className="border-b-2 border-white mx-auto w-20" />
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {partners.map((partner, idx) => (
               <PartnerCard
                 image={`${basePath}/${partner.image}`}
