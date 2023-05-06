@@ -16,8 +16,6 @@ const Hero = () => {
               <h1 className="font-bold text-3xl lg:text-4xl text-black mb-6 leading-tight">
                The app that helps you find out what’s HAPNIN in your area!
               </h1>
-              
-
               <p className="text-lg text-black mb-8">
                  <span className="font-bold">HAPNIN</span> is an event discovery app that offers user-generated events and verified partner events in your area. The app's easy-to-use map-based interface makes it simple to find things to do and exclusive discounts. Download HAPNIN now to plan your next night out with friends and create memories that last a lifetime!
               </p>
