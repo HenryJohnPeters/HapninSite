@@ -63,11 +63,11 @@ const MobileViewNavMenu = ({
           title="Our Partners"
           offset={-50}
         />
-        {/* <LinkComponent
+        <LinkComponent
           handleClosenavMenu={handleClosenavMenu}
           destination="about"
           title="Who We Are"
-        /> */}
+        />
         <DownloadAppCTA style="flex" />
       </ul>
     </div>

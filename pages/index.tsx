@@ -17,9 +17,8 @@ export default function Home() {
       <Hero />
       <HowItWorks />
       <ImageGrid />
-        <About />
       <Partners />
-      {/* <About /> */}
+      <About />
       <Footer />
     </main>
   );
