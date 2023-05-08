@@ -1,69 +1,93 @@
 [
   {
+    "name": "Juniper Lounge",
+    "description": "Juniper Lounge Bournemouth is a lively and stylish bar with a gin-centric concept, perfect for students. It offers an impressive range of gins, beers, and cocktails at affordable prices, as well as hosting exciting events including music, beer pong and large screen projector for sports games.",
+    "image": "juniper_lounge.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
+  },
+  {
     "name": "The Four Horsemen",
-    "description": "Description of the partner goes here.",
+    "description": "Four Horsemen is the ultimate destination for foodies and fun-seekers in Bournemouth. Enjoy delicious pub grub, vegan options, and exciting events such as themed parties, live music, and quiz nights for an unforgettable night out!",
     "image": "the_four_horsemen.png",
     "instagramUrl":"https://instagram.com/thefourhorsemenpub?igshid=NTc4MTIwNjQ2YQ==",
     "facebookUrl":"https://www.facebook.com/fourhorsemenpub/?locale=en_GB"
   },
   {
     "name": "DNA",
-    "description": "The bell's chime echoed across the desert, where cacti thrive. An elephant and flamingo roamed free, surrounded by glittering diamonds. The scene was surreal, an unexpected mingling of the exotic and commonplace, creating an unforgettable experience.",
+    "description": "Experience the ultimate party destination in Bournemouth at DNA. The best DJs and live music, themed club nights, cool lighting and sound, and VIP lounge for an exclusive night out. Amazing memories guaranteed!",
     "image": "dna.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/DNABOURNEMOUTH/?locale=en_GB"
   },
   {
-    "name": "Juniper Lounge",
-    "description": "Description of the partner goes here.",
-    "image": "juniper_lounge.jpg",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
-  },
-  {
     "name": "Slice of Dice",
-    "description": "Description of the partner goes here.",
-    "image": "slice_of_dice.jpeg"
+    "description": "This store hosts exciting events for tabletop gamers, including board games, card games, and miniatures. With a welcoming atmosphere, spacious gaming area, and helpful staff, the store offers regular game nights, tournaments, and release parties, making it the ultimate destination for table top enthusiasts.",
+    "image": "slice_of_dice.png"
   },
   {
     "name": "Smoking Aces",
-    "description": "Description of the partner goes here.",
+    "description": "Discover the ultimate whiskey and cocktail bar experience in Bournemouth at Smokin' Aces. Satisfy your palate with an extensive selection of drinks, enjoy live music, comedy, and bingo events, and indulge in whiskey tastings and cocktail-making classes for a night of unforgettable fun!",
     "image": "smoking_aces.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/SmokinAcesOfficial/"
   },
   {
     "name": "Pause Cat Cafe",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "description": "Pause Cat Cafe Bournemouth offers more than just a cozy atmosphere for cat lovers with its exciting lineup of themed events, such as cat yoga, bingo games, and movie nights. The playful and cuddly feline residents add to the fun, making it the purrfect destination for a unique day out or date with friends.",
     "image": "pause_cat_cafe.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/pausecatcafe/?locale=en_GB"
   },
   {
     "name": "Flirt Cafe",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
-    "image": "flirt.webp",
+    "description": "Flirt Cafe Bournemouth is a cozy and quirky cafe that offers a playful atmosphere where you can enjoy homemade cakes, vegetarian and vegan options, and board games. The cafe's whimsical decor and friendly staff create a fun and relaxed environment, perfect for catching up with friends over coffee.",
+    "image": "flirt.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/Flirtcafebar/"
   },
   {
     "name": "1812",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "description": "1812 Bar Bournemouth offers a stylish and luxurious atmosphere, with an extensive cocktail menu and impressive whiskey selection. Enjoy live music, DJ nights, and quiz nights at this vibrant venue.",
     "image": "1812.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/1812Bournemouth/?locale=en_GB"
   },
   {
     "name": "Saxo",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
+    "description": "Saxo Bar Bournemouth offers a sophisticated night out with premium drinks, impeccable service, and live music events. With a sleek modern decor, it's the perfect destination for those seeking style, class, and entertainment.",
     "image": "saxo.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/SaxoBarBmth/"
     
   },
+
   {
-    "name": "99 Perk Cocktail Bar",
-    "description": "wyeipr weipury ewipury eipuwry ipeuwry eiuwy ipeuwryeipuwry eipwury eipuwry eipuwryeipuwyrweiuyripuwer eipwuryweipur eipuwr eipuwyeipwur epwiur weipuryeipuwrweipury eruw wepiury wpeiuwepiruy weiury aodiusy adisufy aipudfsy aisudy apisudy apisud aipsudy apsidu asdiu.",
-    "image": "99_perk.png"
+    "name": "Poole Hill brewery",
+    "description": "Poole Hill Brewery is a microbrewery based in Bournemouth that produces a range of high-quality beers and ales using traditional brewing methods. The brewery has a taproom where customers can sample their creations, and also offers brewery tours and events. Customers can also enjoy a range of live music events.",
+    "image": "poole_hill_brewery.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://en-gb.facebook.com/poolehillbrewery/"
+  },
+  {
+    "name": "Pondok Fresh Falafel and juice",
+    "description": "Pondok Falafel & Juice in Bournemouth offers an authentic taste of The Middle East, with a menu filled with fresh and flavorful dishes made using traditional recipes. Even better customers can enjoy exclusive walk-in offers via Hapnin. The restaurant's cozy and inviting atmosphere makes it the perfect spot for a casual meal with friends or family.",
+    "image": "pondok.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/pondok.falafel/"
+  },
+  {
+    "name": "Earthling",
+    "description": "Earthling Food is a 100% vegan cafe in Bournemouth that offers delicious and healthy food made from locally-sourced ingredients. Customers who use the Hapnin app can enjoy exclusive walk-in offers and discounts on their meals. The menu features a range of plant-based dishes, including burgers, salads, smoothies, and raw desserts. The cafe's welcoming and eco-friendly atmosphere makes it the perfect spot for a quick lunch or a relaxed brunch.",
+    "image": "earthlings.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/earthlingfooduk/"
+  },
+  {
+    "name": "SupDog",
+    "description": "Supdog is a premier stand-up paddleboard shop that provides high-quality paddleboards and accessories to help customers enjoy the ultimate paddling experience. They offer a wide selection of boards for all skill levels, as well as expert advice and top-notch customer service.",
+    "image": "supdog.png",
+    "instagramUrl":"",
+    "facebookUrl":"https://www.facebook.com/SupDogRentals/"
   }
 ]
