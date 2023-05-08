@@ -16,7 +16,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <HowItWorks />
-      <ImageGrid />
+      {/* <ImageGrid /> */}
       <Partners />
       <About />
       <Footer />
