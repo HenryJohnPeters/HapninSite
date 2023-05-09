@@ -55,7 +55,7 @@ const MobileViewNavMenu = ({
           handleClosenavMenu={handleClosenavMenu}
           destination="howItWorks"
           title="How it works"
-          offset={-150}
+          offset={-90}
         />
         <LinkComponent
           handleClosenavMenu={handleClosenavMenu}
@@ -67,6 +67,7 @@ const MobileViewNavMenu = ({
           handleClosenavMenu={handleClosenavMenu}
           destination="about"
           title="Who We Are"
+          offset={-80}
         />
         <DownloadAppCTA style="flex" />
       </ul>

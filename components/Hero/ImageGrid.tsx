@@ -69,7 +69,7 @@ const ImageGrid = () => {
   ];
 
   return (
-    <div className=" bg-[#70f1ae]">
+    <div className=" bg-[#70f1ae] mt-12">
       <div className="max-w-7xl mx-auto lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-2 text-center">

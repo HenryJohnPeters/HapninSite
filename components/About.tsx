@@ -8,11 +8,11 @@ const About = () => {
   return (
     <>
       <Element name="about"></Element>
-      <div className="w-full px-6 sm:px-10 py-9 bg-gradient-to-br from-[#70f1ae] to-[#70f1ae]">
+      <div className="w-full px-6 sm:px-10 py-9 bg-gradient-to-br">
         <div className="xl:mx-[6rem] 2xl:w-[1200px] 2xl:mx-auto">
           <div className="text-center mb-8">
             <h2 className="font-bold text-2xl mb-2">Who We Are</h2>
-            <hr className="border-b-2 border-white mx-auto w-20" />
+            <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-16">
             <div className="p-4 rounded-2xl border-[0.50px] border-[#70f1ae] hover:bg-[#70f1ae] hover:text-black transition-colors duration-300">

@@ -34,18 +34,18 @@ const NavBar = () => {
                   to="howItWorks"
                   smooth={true}
                   duration={500}
-                  offset={-160}
+                  offset={-65}
                 >
                   How It Works
                 </Link>
               </li>
               <li>
-                <Link to="partners" smooth={true} duration={500} offset={-140}>
+                <Link to="partners" smooth={true} duration={500} offset={-65}>
                   Our Partners
                 </Link>
               </li>
               <li>
-                <Link to="about" smooth={true} duration={500} offset={-160}>
+                <Link to="about" smooth={true} duration={500} offset={-70}>
                   Who We Are
                 </Link>
               </li>
