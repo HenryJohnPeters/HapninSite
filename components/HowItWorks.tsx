@@ -55,7 +55,7 @@ const HowItWorks = () => {
   return (
     <>
       <Element name="howItWorks" />
-      <div className="w-full px-6 sm:px-10 my-[6rem]">
+      <div className="w-full px-6 sm:px-10 my-[5rem]">
         <div className="xl:mx-[6rem] 2xl:w-[1400px] 2xl:mx-auto">
           <div className="mb-10">
             <h2 className="font-bold text-2xl text-center mb-2">

@@ -69,8 +69,8 @@ const ImageGrid = () => {
   ];
 
   return (
-    <div className="py-16 bg-[#70f1ae]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className=" bg-[#70f1ae] mt-12">
+      <div className="max-w-7xl mx-auto lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-2 text-center">
             Get the most out of your community!
@@ -78,7 +78,7 @@ const ImageGrid = () => {
           <hr className="border-b-2 border-white mx-auto w-20" />
         </div>
 
-        <div className="grid sm:grid-cols-2 sm:gap-4">
+        <div className="grid md:grid-cols-2 md:gap-4">
           {gridContent.map((el, i) => (
             <GridItemComponent
               title={el.title}
