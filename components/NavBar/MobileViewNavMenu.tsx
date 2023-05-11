@@ -44,7 +44,7 @@ const MobileViewNavMenu = ({
   };
 
   return (
-    <div>
+    <div className="lg:hidden">
       <ul className={openNavMenu ? "absolute w-full px-8 bg-white" : "hidden"}>
         <LinkComponent
           handleClosenavMenu={handleClosenavMenu}

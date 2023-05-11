@@ -19,8 +19,9 @@ const About = () => {
               <div className="w-1/2 mx-auto mb-4">
                 <Image src={manImg} alt="man" className="rounded-full" />
               </div>
-              <div className="flex flex-col items-center ">
-                <h3 className="font-bold text-xl my-2">Henry Peters (CTO)</h3>
+              <div className="flex flex-col items-center space-y-2">
+                <h3 className="font-bold text-xl">Henry Peters</h3>
+                <h3 className="font-bold text-xl">(CTO)</h3>
                 <p className="text-sm text-center">
                   Henry is a highly skilled full stack developer. He has
                   extensive experience in javascript mapping technologies and
@@ -34,8 +35,9 @@ const About = () => {
               <div className="w-1/2 mx-auto mb-4">
                 <Image src={manImg} alt="man" className="rounded-full" />
               </div>
-              <div className="flex flex-col items-center ">
-                <h3 className="font-bold text-xl my-2">Jacob Walker (CFO )</h3>
+              <div className="flex flex-col items-center space-y-2">
+                <h3 className="font-bold text-xl">Jacob Walker</h3>
+                <h3 className="font-bold text-xl">(CFO)</h3>
                 <p className="text-sm text-center">
                   Jacob is an accomplished B2B sales professional with extensive
                   experience selling SaaS and IT security solutions. Jacob
@@ -48,8 +50,9 @@ const About = () => {
               <div className="w-1/2 mx-auto mb-4">
                 <Image src={manImg} alt="man" className="rounded-full" />
               </div>
-              <div className="flex flex-col items-center ">
-                <h3 className="font-bold text-xl my-2">Joan (Developer)</h3>
+              <div className="flex flex-col items-center space-y-2">
+                <h3 className="font-bold text-xl">Joan</h3>
+                <h3 className="font-bold text-xl">(Developer)</h3>
                 <p className="text-sm text-center">
                   Joan is a talented full-stack developer with a passion for
                   creating efficient and user-friendly web applications. Joan
