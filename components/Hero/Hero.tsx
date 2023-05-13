@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 
 import barbecue from "../../public/static/barbecue-party.svg";
 import ImageGrid from "./ImageGrid";
-// now
+
 const Hero = () => {
   return (
     <>
@@ -24,12 +24,14 @@ const Hero = () => {
                 discounts. Download HAPNIN now to plan your next night out with
                 friends and create memories that last a lifetime!
               </p>
-              <button className="bg-white m-2 text-black hover:text-[#70f1ae] hover:bg-black rounded-full py-3 px-6 font-bold shadow-lg transition-all duration-200 flex flex-col items-center md:flex-row md:justify-between w-[360px] mx-auto">
-                Download for IOS <span>(Coming soon 🕑)</span>
-              </button>
-              <button className="bg-white m-2 text-black hover:text-[#70f1ae] hover:bg-black rounded-full py-3 px-6 font-bold shadow-lg transition-all duration-200 flex flex-col items-center md:flex-row md:justify-between w-[360px] mx-auto">
-                Download for Android <span>(Coming soon 🕑)</span>
-              </button>
+              <div className="flex flex-col items-center w-full">
+                <button className="bg-white w-full max-w-[300px] m-2 text-black hover:text-[#70f1ae] hover:bg-black rounded-full py-3 px-6 font-bold shadow-lg transition-all duration-200 flex flex-col items-center md:flex-row md:justify-between">
+                  Download for IOS <span>(Coming soon 🕑)</span>
+                </button>
+                <button className="bg-white w-full max-w-[300px] m-2 text-black hover:text-[#70f1ae] hover:bg-black rounded-full py-3 px-6 font-bold shadow-lg transition-all duration-200 flex flex-col items-center md:flex-row md:justify-between">
+                  Download for Android <span>(Coming soon 🕑)</span>
+                </button>
+              </div>
             </div>
             <div className="w-full sm:w-1/2 mt-10 sm:mt-0 p-1 sm:p-8">
               <Image

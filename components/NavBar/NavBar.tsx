@@ -23,7 +23,7 @@ const NavBar = () => {
             <SocialLinks />
           </div>
           <div>
-            <ul className="hidden md:flex">
+            <ul className="hidden lg:flex">
               <li>
                 <Link to="hero" smooth={true} duration={500}>
                   Home
@@ -53,9 +53,9 @@ const NavBar = () => {
           </div>
         </div>
 
-        <DownloadAppCTA style="hidden md:flex" />
+        <DownloadAppCTA style="hidden lg:flex" />
 
-        <div className="md:hidden mr-4" onClick={() => handleToggleNavMenu()}>
+        <div className="lg:hidden mr-4" onClick={() => handleToggleNavMenu()}>
           {openNavMenu ? (
             <XMarkIcon className="w-5 hover:cursor-pointer" />
           ) : (
