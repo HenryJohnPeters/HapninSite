@@ -59,7 +59,7 @@
     "image": "saxo.png",
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/SaxoBarBmth/"
-    
+
   },
 
   {
@@ -90,4 +90,100 @@
     "instagramUrl":"",
     "facebookUrl":"https://www.facebook.com/SupDogRentals/"
   }
+
+
+
+
+,
+  {
+    "name": "Aquatic Leisure",
+    "description": "Looking for a premier stand-up paddleboard shop? Look no further than Aquatic Leisure! They offer high-quality paddleboards and accessories, along with expert advice and top-notch customer service. Check out their Facebook page!",
+    "image": "aquatic_leisure.png",
+    "instagramUrl": "https://www.instagram.com/aquaticleisure/",
+    "facebookUrl": "https://www.facebook.com/AquaticLeisure/"
+    },
+    {
+    "name": "Bare Knuckle Boxing world",
+    "description": "Get ready to rumble with Bare Knuckle Boxing World! Offering high-quality equipment and expert advice, they're your go-to for bare-knuckle boxing. Check out their Facebook page for more info!",
+    "image": "bkb.png",
+    "instagramUrl": "https://www.instagram.com/bkbworld/",
+    "facebookUrl": "https://www.facebook.com/BKBworld/"
+    },
+    {
+    "name": "Black Cherry theatre",
+    "description": "For a night of entertainment, head to Black Cherry Theatre! With live performances and events, they're sure to keep you on the edge of your seat. Check out their Facebook page for more info!",
+    "image": "black_cherry.png",
+    "instagramUrl": "https://www.instagram.com/blackcherrytheatre/",
+    "facebookUrl": "https://www.facebook.com/blackcherrytheatre/"
+    },
+    {
+    "name": "Dorset SUP",
+    "description": "Explore the beautiful Dorset coast with Dorset SUP! They offer high-quality paddleboards and accessories, along with expert advice and top-notch customer service. Check out their Facebook page for more info!",
+    "image": "dorset_sup.png",
+    "instagramUrl": "https://www.instagram.com/dorsetsup/",
+    "facebookUrl": "https://www.facebook.com/DorsetSUP/"
+    },
+    {
+    "name": "Everyone's Watersports",
+    "description": "Everyone's Watersports has everything you need for a day of fun on the water! With high-quality equipment and expert advice, they're the go-to for watersports enthusiasts. Check out their Facebook page for more info!",
+    "image": "everyones_watersports.png",
+    "instagramUrl": "https://www.instagram.com/everyoneswatersports/",
+    "facebookUrl": "https://www.facebook.com/EveryonesWatersports/"
+    },
+    {
+    "name": "Gigr",
+    "description": "For live music and entertainment, look no further than Gigr! With a wide range of performances and events, they're sure to have something for everyone. Check out their Facebook page for more info!",
+    "image": "gigr.png",
+    "instagramUrl": "https://www.instagram.com/gigrapp/",
+    "facebookUrl": "https://www.facebook.com/gigrapp/"
+    },
+    {
+    "name": "Jaggers Comedy Club",
+    "description": "Laugh until your sides hurt at Jaggers Comedy Club! With a lineup of hilarious comedians, they're sure to leave you in stitches. Check out their Facebook page for more info!",
+    "image": "jaggers_comedy_club.png",
+    "instagramUrl": "https://www.instagram.com/jaggerscomedy/",
+    "facebookUrl": "https://www.facebook.com/JaggersComedyClub/"
+    },
+    {
+      "name": "Jurassic Watersports",
+      "description": "Experience the ultimate paddleboarding adventure with Jurassic Watersports! Our high-quality boards and accessories cater to all skill levels, and our expert team provides top-notch customer service. Follow us on Instagram at @jurassicwatersports and on Facebook at facebook.com/JurassicWatersports.",
+      "image": "jurassic_waterspots.png",
+      "instagramUrl": "https://www.instagram.com/jurassicwatersports/",
+      "facebookUrl": "https://www.facebook.com/JurassicWatersports/"
+    },
+    {
+      "name": "Lasertag Moorsvalley",
+      "description": "Get ready for an adrenaline-pumping game of laser tag at Moorsvalley! Our exciting outdoor course is perfect for all ages and occasions. Follow us on Instagram at @lasertagmoorsvalley and on Facebook at facebook.com/LasertagMoorsvalley.",
+      "image": "lasertag_moorsvalley.png",
+      "instagramUrl": "https://www.instagram.com/lasertagmoorsvalley/",
+      "facebookUrl": "https://www.facebook.com/LasertagMoorsvalley/"
+    },
+    {
+      "name": "Lions Of Judah Boxing",
+      "description": "Unleash your inner fighter and join the Lions Of Judah Boxing gym! Our experienced trainers provide personalized boxing and fitness programs for all levels. Follow us on Instagram at @lions_of_judah_boxing and on Facebook at facebook.com/LionsofJudahBoxing.",
+      "image": "Lions-of-Judah.png",
+      "instagramUrl": "https://www.instagram.com/lions_of_judah_boxing/",
+      "facebookUrl": "https://www.facebook.com/LionsofJudahBoxing/"
+    },
+    {
+      "name": "Sandbanks Paddleboard Hire",
+      "description": "Explore the stunning coastline of Sandbanks with our high-quality paddleboards! Our rental service caters to all skill levels and provides top-notch customer service. Follow us on Instagram at @sandbankspaddleboardhire and on Facebook at facebook.com/SandbanksPaddleboardHire.",
+      "image": "sandbanks_paddleboard_hire.png",
+      "instagramUrl": "https://www.instagram.com/sandbankspaddleboardhire/",
+      "facebookUrl": "https://www.facebook.com/SandbanksPaddleboardHire/"
+    },
+    {
+      "name": "Shoresports",
+      "description": "Experience the thrill of watersports with Shoresports! Our expert team provides personalized coaching and equipment rentals for kite surfing, windsurfing, and more. Follow us on Instagram at @shoresports and on Facebook at facebook.com/Shoresports.",
+      "image": "shoresports.png",
+      "instagramUrl": "https://www.instagram.com/shoresports/",
+      "facebookUrl": "https://www.facebook.com/Shoresports/"
+    },
+    {
+      "name": "Simon Read Foundation",
+      "description": "Join the Simon Read Foundation in supporting youth sports and education initiatives! Our charity organization provides grants and scholarships to young athletes and students. Follow us on Instagram at @simonreadfoundation and on Facebook at facebook.com/SimonReadFoundation.",
+      "image": "simon_read_foundation.png",
+      "instagramUrl": "https://www.instagram.com/simonreadfoundation/",
+      "facebookUrl": "https://www.facebook.com/SimonReadFoundation/"
+    }
 ]

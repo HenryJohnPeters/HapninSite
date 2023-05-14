@@ -24,14 +24,14 @@ const PartnerCard = ({
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-2 hover:scale-105 flex flex-col justify-between">
       <div>
         <div className="relative bg-black">
-          <Image
-            src={image}
-            alt="partner"
-            className="object-contain w-full h-48 rounded-lg filter brightness-125 hover:brightness-100"
-            width={500}
-            height={500}
-          />
-          <div className="absolute inset-0 bg-[#70f1ae] opacity-0 transition duration-300 hover:opacity-70"></div>
+        <Image
+  src={image}
+  alt="partner"
+  className="object-contain w-full h-48 rounded-lg filter brightness-125 hover:brightness-100"
+  width={1000}
+  height={1000}
+/>
+          <div className="absolute inset-0   opacity-0 transition duration-300 hover:opacity-70"></div>
         </div>
         <div className="p-4 text-center">
           <p className="text-sm font-medium">{name}</p>

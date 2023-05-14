@@ -18,7 +18,7 @@ export default function Home() {
       <HowItWorks />
       {/* <ImageGrid /> */}
       <Partners />
-      <About />
+      {/* <About /> */}
       <Footer />
     </main>
   );
