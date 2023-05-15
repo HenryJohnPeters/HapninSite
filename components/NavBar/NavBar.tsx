@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { FaFacebook, FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
-
+import logo from "../../public/static/logo.png";
 import DownloadAppCTA from "../DownloadAppCTA";
 import MobileViewNavMenu from "./MobileViewNavMenu";
 import SocialLinks from "../SocialLinks";
-
+import Image from "next/image";
 const NavBar = () => {
   const [openNavMenu, setOpenNavMenu] = useState(false);
 
@@ -19,7 +19,21 @@ const NavBar = () => {
       <div className="flex justify-between items-center px-4 w-full h-full">
         <div className="flex items-center w-full justify-between">
           <div className="flex items-center">
-            <h1 className="text-3xl font-bold mr-4">HAPNIN</h1>
+          <Image
+              src={logo}
+              alt="Logo"
+              className="hover:rotate-12 hover:scale-115  hover:shadow-lg transition-all duration-500"
+              style={{
+
+                backgroundColor:'black',
+                borderRadius:'50px',
+                // backgroundColor:'black',
+                maxWidth: '70px',
+                maxHeight: '70px',
+
+              }}
+            />
+            <h1 className="text-3xl font-bold mr-4 m-2">HAPNIN</h1>
             <SocialLinks />
           </div>
           <div>
@@ -54,7 +68,6 @@ const NavBar = () => {
         </div>
 
         <DownloadAppCTA style="hidden lg:flex" />
-
         <div className="lg:hidden mr-4" onClick={() => handleToggleNavMenu()}>
           {openNavMenu ? (
             <XMarkIcon className="w-5 hover:cursor-pointer" />

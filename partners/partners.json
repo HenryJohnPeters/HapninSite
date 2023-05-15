@@ -1,189 +1,190 @@
+ 
 [
-  {
-    "name": "Juniper Lounge",
-    "description": "Juniper Lounge Bournemouth is a lively and stylish bar with a gin-centric concept, perfect for students.",
-    "image": "juniper_lounge.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
-  },
-  {
-    "name": "The Four Horsemen",
-    "description": "Four Horsemen is the ultimate destination for foodies and fun-seekers in Bournemouth. Enjoy exciting events such as themed parties, live music, and quiz nights.",
-    "image": "the_four_horsemen.png",
-    "instagramUrl":"https://instagram.com/thefourhorsemenpub?igshid=NTc4MTIwNjQ2YQ==",
-    "facebookUrl":"https://www.facebook.com/fourhorsemenpub/?locale=en_GB"
-  },
-  {
-    "name": "DNA",
-    "description": "The ultimate party destination in Bournemouth. The best DJs and live music, themed club nights, cool lighting and sound, and VIP lounge for an exclusive night out.",
-    "image": "dna.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/DNABOURNEMOUTH/?locale=en_GB"
-  },
-  {
-    "name": "Slice of Dice",
-    "description": "This store hosts exciting events for tabletop gamers, including board games, card games, and miniatures. The store offers regular game nights, tournaments, and release parties.",
-    "image": "slice_of_dice.png"
-  },
-  {
-    "name": "Smoking Aces",
-    "description": "Satisfy your palate with an extensive selection of drinks, enjoy live music, comedy, and bingo events, and indulge in whiskey tastings and cocktail-making classes for a night of unforgettable fun!",
-    "image": "smoking_aces.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/SmokinAcesOfficial/"
-  },
-  {
-    "name": "Pause Cat Cafe",
-    "description": "Pause Cat Cafe Bournemouth offers more than just a cozy atmosphere for cat lovers with its exciting lineup of themed events, such as cat yoga, bingo games, and movie nights.",
-    "image": "pause_cat_cafe.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/pausecatcafe/?locale=en_GB"
-  },
-  {
-    "name": "Flirt Cafe",
-    "description": "Flirt Cafe Bournemouth is a cozy and quirky cafe that offers a playful atmosphere where you can enjoy homemade cakes, vegetarian and vegan options, and board games.",
-    "image": "flirt.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/Flirtcafebar/"
-  },
-  {
-    "name": "1812",
-    "description": "1812 Bar Bournemouth offers a stylish and luxurious atmosphere, with an extensive cocktail menu and impressive whiskey selection. Enjoy live music, DJ nights, and quiz nights at this vibrant venue.",
-    "image": "1812.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/1812Bournemouth/?locale=en_GB"
-  },
-  {
-    "name": "Saxo",
-    "description": "Saxo Bar Bournemouth offers a sophisticated night out with premium drinks, impeccable service, and live music events. With a sleek modern decor, it's the perfect destination for those seeking style, class, and entertainment.",
-    "image": "saxo.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/SaxoBarBmth/"
-
-  },
-
-  {
-    "name": "Poole Hill brewery",
-    "description": "Poole Hill Brewery is a microbrewery based in Bournemouth that produces a range of high-quality beers and ales, and where customers can sample their creations. Customers can also enjoy a range of live music events.",
-    "image": "poole_hill_brewery.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://en-gb.facebook.com/poolehillbrewery/"
-  },
-  {
-    "name": "Pondok Fresh Falafel and juice",
-    "description": "Pondok Falafel & Juice in Bournemouth offers an authentic taste of The Middle East, with a menu filled with fresh and flavorful dishes made using traditional recipes. Even better customers can enjoy exclusive walk-in offers via Hapnin.",
-    "image": "pondok.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/pondok.falafel/"
-  },
-  {
-    "name": "Earthling",
-    "description": "Earthling Food is a 100% vegan cafe in Bournemouth that offers delicious and healthy food made from locally-sourced ingredients. Customers who use the Hapnin app can enjoy exclusive walk-in offers and discounts on their meals.",
-    "image": "earthlings.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/earthlingfooduk/"
-  },
-  {
-    "name": "SupDog",
-    "description": "Supdog is a premier stand-up paddleboard shop that provides high-quality paddleboards and accessories to help customers enjoy the ultimate paddling experience. They offer a wide selection of boards for all skill levels, as well as expert advice and top-notch customer service.",
-    "image": "supdog.png",
-    "instagramUrl":"",
-    "facebookUrl":"https://www.facebook.com/SupDogRentals/"
-  }
-
-
-
-
-,
-  {
-    "name": "Aquatic Leisure",
-    "description": "Looking for a premier stand-up paddleboard shop? Look no further than Aquatic Leisure! They offer high-quality paddleboards and accessories, along with expert advice and top-notch customer service. Check out their Facebook page!",
-    "image": "aquatic_leisure.png",
-    "instagramUrl": "https://www.instagram.com/aquaticleisure/",
-    "facebookUrl": "https://www.facebook.com/AquaticLeisure/"
+    {
+        "name": "Bare Knuckle Boxing world",
+        "description": "Get ready to rumble with Bare Knuckle Boxing World! Offering high-quality equipment and expert advice, they're your go-to for bare-knuckle boxing. Check out their Facebook page for more info!",
+        "image": "bkb.png",
+        "instagramUrl": "https://www.instagram.com/bkb_official1/?hl=en",
+        "facebookUrl": "https://www.facebook.com/BKBofficialpage1/?locale=en_GB"
+        },
+    
+    {
+      "name": "Juniper Lounge",
+      "description": "Juniper Lounge Bournemouth is a lively and stylish bar with a gin-centric concept, perfect for students.",
+      "image": "juniper_lounge.png",
+      "instagramUrl":"https://www.instagram.com/thejuniperloungebournemouth/",
+      "facebookUrl":"https://www.facebook.com/ginbarbournemouth/?locale=en_GB"
     },
     {
-    "name": "Bare Knuckle Boxing world",
-    "description": "Get ready to rumble with Bare Knuckle Boxing World! Offering high-quality equipment and expert advice, they're your go-to for bare-knuckle boxing. Check out their Facebook page for more info!",
-    "image": "bkb.png",
-    "instagramUrl": "https://www.instagram.com/bkbworld/",
-    "facebookUrl": "https://www.facebook.com/BKBworld/"
+      "name": "The Four Horsemen",
+      "description": "Four Horsemen is the ultimate destination for foodies and fun-seekers in Bournemouth. Enjoy exciting events such as themed parties, live music, and quiz nights.",
+      "image": "the_four_horsemen.png",
+      "instagramUrl":"https://instagram.com/thefourhorsemenpub?igshid=NTc4MTIwNjQ2YQ==",
+      "facebookUrl":"https://www.facebook.com/fourhorsemenpub/?locale=en_GB"
     },
     {
-    "name": "Black Cherry theatre",
-    "description": "For a night of entertainment, head to Black Cherry Theatre! With live performances and events, they're sure to keep you on the edge of your seat. Check out their Facebook page for more info!",
-    "image": "black_cherry.png",
-    "instagramUrl": "https://www.instagram.com/blackcherrytheatre/",
-    "facebookUrl": "https://www.facebook.com/blackcherrytheatre/"
+      "name": "DNA",
+      "description": "The ultimate party destination in Bournemouth. The best DJs and live music, themed club nights, cool lighting and sound, and VIP lounge for an exclusive night out.",
+      "image": "dna.png",
+      "instagramUrl":"https://www.instagram.com/dnabournemouth/",
+      "facebookUrl":"https://www.facebook.com/DNABOURNEMOUTH/?locale=en_GB"
     },
     {
-    "name": "Dorset SUP",
-    "description": "Explore the beautiful Dorset coast with Dorset SUP! They offer high-quality paddleboards and accessories, along with expert advice and top-notch customer service. Check out their Facebook page for more info!",
-    "image": "dorset_sup.png",
-    "instagramUrl": "https://www.instagram.com/dorsetsup/",
-    "facebookUrl": "https://www.facebook.com/DorsetSUP/"
+      "name": "Slice of Dice",
+      "description": "This store hosts exciting events for tabletop gamers, including board games, card games, and miniatures. The store offers regular game nights, tournaments, and release parties.",
+      "image": "slice_of_dice.png"
     },
     {
-    "name": "Everyone's Watersports",
-    "description": "Everyone's Watersports has everything you need for a day of fun on the water! With high-quality equipment and expert advice, they're the go-to for watersports enthusiasts. Check out their Facebook page for more info!",
-    "image": "everyones_watersports.png",
-    "instagramUrl": "https://www.instagram.com/everyoneswatersports/",
-    "facebookUrl": "https://www.facebook.com/EveryonesWatersports/"
+      "name": "Smoking Aces",
+      "description": "Satisfy your palate with an extensive selection of drinks, enjoy live music, comedy, and bingo events, and indulge in whiskey tastings and cocktail-making classes for a night of unforgettable fun!",
+      "image": "smoking_aces.png",
+      "instagramUrl":"https://www.instagram.com/smokinacesbmth/",
+      "facebookUrl":"https://www.facebook.com/SmokinAcesOfficial/"
     },
     {
-    "name": "Gigr",
-    "description": "For live music and entertainment, look no further than Gigr! With a wide range of performances and events, they're sure to have something for everyone. Check out their Facebook page for more info!",
-    "image": "gigr.png",
-    "instagramUrl": "https://www.instagram.com/gigrapp/",
-    "facebookUrl": "https://www.facebook.com/gigrapp/"
+      "name": "Pause Cat Cafe",
+      "description": "Pause Cat Cafe Bournemouth offers more than just a cozy atmosphere for cat lovers with its exciting lineup of themed events, such as cat yoga, bingo games, and movie nights.",
+      "image": "pause_cat_cafe.png",
+      "instagramUrl":"https://www.instagram.com/pausecatcafe/",
+      "facebookUrl":"https://www.facebook.com/pausecatcafe/?locale=en_GB"
     },
     {
-    "name": "Jaggers Comedy Club",
-    "description": "Laugh until your sides hurt at Jaggers Comedy Club! With a lineup of hilarious comedians, they're sure to leave you in stitches. Check out their Facebook page for more info!",
-    "image": "jaggers_comedy_club.png",
-    "instagramUrl": "https://www.instagram.com/jaggerscomedy/",
-    "facebookUrl": "https://www.facebook.com/JaggersComedyClub/"
+      "name": "Flirt Cafe",
+      "description": "Flirt Cafe Bournemouth is a cozy and quirky cafe that offers a playful atmosphere where you can enjoy homemade cakes, vegetarian and vegan options, and board games.",
+      "image": "flirt.png",
+      "instagramUrl":"https://www.instagram.com/flirtcafebar/",
+      "facebookUrl":"https://www.facebook.com/Flirtcafebar/"
     },
     {
-      "name": "Jurassic Watersports",
-      "description": "Experience the ultimate paddleboarding adventure with Jurassic Watersports! Our high-quality boards and accessories cater to all skill levels, and our expert team provides top-notch customer service. Follow us on Instagram at @jurassicwatersports and on Facebook at facebook.com/JurassicWatersports.",
-      "image": "jurassic_waterspots.png",
-      "instagramUrl": "https://www.instagram.com/jurassicwatersports/",
-      "facebookUrl": "https://www.facebook.com/JurassicWatersports/"
+      "name": "1812",
+      "description": "1812 Bar Bournemouth offers a stylish and luxurious atmosphere, with an extensive cocktail menu and impressive whiskey selection. Enjoy live music, DJ nights, and quiz nights at this vibrant venue.",
+      "image": "1812.png",
+      "instagramUrl":"https://www.instagram.com/1812bournemouth/",
+      "facebookUrl":"https://www.facebook.com/1812Bournemouth/?locale=en_GB"
     },
     {
-      "name": "Lasertag Moorsvalley",
-      "description": "Get ready for an adrenaline-pumping game of laser tag at Moorsvalley! Our exciting outdoor course is perfect for all ages and occasions. Follow us on Instagram at @lasertagmoorsvalley and on Facebook at facebook.com/LasertagMoorsvalley.",
-      "image": "lasertag_moorsvalley.png",
-      "instagramUrl": "https://www.instagram.com/lasertagmoorsvalley/",
-      "facebookUrl": "https://www.facebook.com/LasertagMoorsvalley/"
+      "name": "Saxo",
+      "description": "Saxo Bar Bournemouth offers a sophisticated night out with premium drinks, impeccable service, and live music events. With a sleek modern decor, it's the perfect destination for those seeking style, class, and entertainment.",
+      "image": "saxo.png",
+      "instagramUrl":"https://www.instagram.com/saxobarbmth/",
+      "facebookUrl":"https://www.facebook.com/SaxoBarBmth/"
+  
+    },
+  
+    {
+      "name": "Poole Hill brewery",
+      "description": "Poole Hill Brewery is a microbrewery based in Bournemouth that produces a range of high-quality beers and ales, and where customers can sample their creations. Customers can also enjoy a range of live music events.",
+      "image": "poole_hill_brewery.png",
+      "instagramUrl":"https://www.instagram.com/poolehillbrewery/",
+      "facebookUrl":"https://en-gb.facebook.com/poolehillbrewery/"
     },
     {
-      "name": "Lions Of Judah Boxing",
-      "description": "Unleash your inner fighter and join the Lions Of Judah Boxing gym! Our experienced trainers provide personalized boxing and fitness programs for all levels. Follow us on Instagram at @lions_of_judah_boxing and on Facebook at facebook.com/LionsofJudahBoxing.",
-      "image": "Lions-of-Judah.png",
-      "instagramUrl": "https://www.instagram.com/lions_of_judah_boxing/",
-      "facebookUrl": "https://www.facebook.com/LionsofJudahBoxing/"
+      "name": "Pondok Fresh Falafel and juice",
+      "description": "Pondok Falafel & Juice in Bournemouth offers an authentic taste of The Middle East, with a menu filled with fresh and flavorful dishes made using traditional recipes. Even better customers can enjoy exclusive walk-in offers via Hapnin.",
+      "image": "pondok.png",
+      "instagramUrl":"https://www.instagram.com/pondok.falafel/",
+      "facebookUrl":"https://www.facebook.com/pondok.falafel/"
     },
     {
-      "name": "Sandbanks Paddleboard Hire",
-      "description": "Explore the stunning coastline of Sandbanks with our high-quality paddleboards! Our rental service caters to all skill levels and provides top-notch customer service. Follow us on Instagram at @sandbankspaddleboardhire and on Facebook at facebook.com/SandbanksPaddleboardHire.",
-      "image": "sandbanks_paddleboard_hire.png",
-      "instagramUrl": "https://www.instagram.com/sandbankspaddleboardhire/",
-      "facebookUrl": "https://www.facebook.com/SandbanksPaddleboardHire/"
+      "name": "Earthling",
+      "description": "Earthling Food is a 100% vegan cafe in Bournemouth that offers delicious and healthy food made from locally-sourced ingredients. Customers who use the Hapnin app can enjoy exclusive walk-in offers and discounts on their meals.",
+      "image": "earthlings.png",
+      "instagramUrl":"https://www.instagram.com/earthlingfooduk/",
+      "facebookUrl":"https://www.facebook.com/earthlingfooduk/"
     },
     {
-      "name": "Shoresports",
-      "description": "Experience the thrill of watersports with Shoresports! Our expert team provides personalized coaching and equipment rentals for kite surfing, windsurfing, and more. Follow us on Instagram at @shoresports and on Facebook at facebook.com/Shoresports.",
-      "image": "shoresports.png",
-      "instagramUrl": "https://www.instagram.com/shoresports/",
-      "facebookUrl": "https://www.facebook.com/Shoresports/"
-    },
-    {
-      "name": "Simon Read Foundation",
-      "description": "Join the Simon Read Foundation in supporting youth sports and education initiatives! Our charity organization provides grants and scholarships to young athletes and students. Follow us on Instagram at @simonreadfoundation and on Facebook at facebook.com/SimonReadFoundation.",
-      "image": "simon_read_foundation.png",
-      "instagramUrl": "https://www.instagram.com/simonreadfoundation/",
-      "facebookUrl": "https://www.facebook.com/SimonReadFoundation/"
+      "name": "SupDog",
+      "description": "Supdog is a premier stand-up paddleboard shop that provides high-quality paddleboards and accessories to help customers enjoy the ultimate paddling experience. They offer a wide selection of boards for all skill levels, as well as expert advice and top-notch customer service.",
+      "image": "supdog.png",
+      "instagramUrl":"https://www.instagram.com/supdogrentals/",
+      "facebookUrl":"https://www.facebook.com/SupDogRentals/"
     }
-]
+  
+  ,
+    {
+      "name": "Aquatic Leisure",
+      "description": "Looking for a premier stand-up paddleboard shop? Look no further than Aquatic Leisure! They offer high-quality paddleboards and accessories, along with expert advice and top-notch customer service. Check out their Facebook page!",
+      "image": "aquatic_leisure.png",
+      "instagramUrl": "https://www.instagram.com/john.p.wheeler/",
+      "facebookUrl": "https://www.facebook.com/aquaticleisure/"
+      },
+      
+      {
+      "name": "Black Cherry theatre",
+      "description": "For a night of entertainment, head to Black Cherry Theatre! With live performances and events, they're sure to keep you on the edge of your seat. Check out their Facebook page for more info!",
+      "image": "black_cherry.png",
+      "instagramUrl": "https://www.instagram.com/theblackcherrytmc/",
+      "facebookUrl": "https://www.facebook.com/theblackcherrytmc/"
+      },
+      {
+      "name": "Dorset SUP",
+      "description": "Explore the beautiful Dorset coast with Dorset SUP! They offer high-quality paddleboards and accessories, along with expert advice and top-notch customer service. Check out their Facebook page for more info!",
+      "image": "dorset_sup.png",
+      "instagramUrl": "https://www.instagram.com/dorsetsup/",
+      "facebookUrl": "https://www.facebook.com/dorsetsup/"
+      },
+      {
+      "name": "Everyone's Watersports",
+      "description": "Everyone's Watersports has everything you need for a day of fun on the water! With high-quality equipment and expert advice, they're the go-to for watersports enthusiasts. Check out their Facebook page for more info!",
+      "image": "everyones_watersports.png",
+      "instagramUrl": "https://www.instagram.com/everyones_watersports/",
+      "facebookUrl": "https://www.facebook.com/EveryonesWatersports"
+      },
+      {
+      "name": "Gigr",
+      "description": "For live music and entertainment, look no further than Gigr! With a wide range of performances and events, they're sure to have something for everyone. Check out their Facebook page for more info!",
+      "image": "gigr.png",
+      "instagramUrl": "https://www.instagram.com/gigr_uk/",
+      "facebookUrl": "https://www.facebook.com/gigruk"
+      },
+      {
+      "name": "Jaggers Comedy Club",
+      "description": "Laugh until your sides hurt at Jaggers Comedy Club! With a lineup of hilarious comedians, they're sure to leave you in stitches. Check out their Facebook page for more info!",
+      "image": "jaggers_comedy_club.png",
+      "instagramUrl": "https://www.instagram.com/jaggerscomedyclub/",
+      "facebookUrl": "https://www.facebook.com/JaggersComedyClub"
+      },
+      {
+        "name": "Jurassic Watersports",
+        "description": "Experience the ultimate paddleboarding adventure with Jurassic Watersports! Our high-quality boards and accessories cater to all skill levels, and our expert team provides top-notch customer service. Follow us on Instagram at @jurassicwatersports and on Facebook at facebook.com/JurassicWatersports.",
+        "image": "jurassic_waterspots.png",
+        "instagramUrl": "https://www.instagram.com/jurassicwatersports/",
+        "facebookUrl": "https://www.facebook.com/jurassicwatersports"
+      },
+      {
+        "name": "Lasertag Moorsvalley",
+        "description": "Get ready for an adrenaline-pumping game of laser tag at Moorsvalley! Our exciting outdoor course is perfect for all ages and occasions. Follow us on Instagram at @lasertagmoorsvalley and on Facebook at facebook.com/LasertagMoorsvalley.",
+        "image": "lasertag_moorsvalley.png",
+        "instagramUrl": "",
+        "facebookUrl": "https://www.facebook.com/profile.php?id=100088099512678"
+      },
+      {
+        "name": "Lions Of Judah Boxing",
+        "description": "Unleash your inner fighter and join the Lions Of Judah Boxing gym! Our experienced trainers provide personalized boxing and fitness programs for all levels. Follow us on Instagram at @lions_of_judah_boxing and on Facebook at facebook.com/LionsofJudahBoxing.",
+        "image": "Lions-of-Judah.png",
+        "instagramUrl": "https://www.instagram.com/lions_of_judah_boxing_academy/",
+        "facebookUrl": "https://www.facebook.com/lionsofJudahboxingacademy"
+      },
+      {
+        "name": "Sandbanks Paddleboard Hire",
+        "description": "Explore the stunning coastline of Sandbanks with our high-quality paddleboards! Our rental service caters to all skill levels and provides top-notch customer service. Follow us on Instagram at @sandbankspaddleboardhire and on Facebook at facebook.com/SandbanksPaddleboardHire.",
+        "image": "sandbanks_paddleboard_hire.png",
+        "instagramUrl": "https://www.instagram.com/sandbanks_paddleboard_hire/",
+        "facebookUrl": "https://www.facebook.com/sandbankspaddleboardhire"
+      },
+      {
+        "name": "Shoresports",
+        "description": "Experience the thrill of watersports with Shoresports! Our expert team provides personalized coaching and equipment rentals for kite surfing, windsurfing, and more. Follow us on Instagram at @shoresports and on Facebook at facebook.com/Shoresports.",
+        "image": "shoresports.png",
+        "instagramUrl": "https://www.instagram.com/shoresportsuk/",
+        "facebookUrl": "https://www.facebook.com/shoresports"
+      },
+      {
+        "name": "Simon Read Foundation",
+        "description": "Join the Simon Read Foundation in supporting youth sports and education initiatives! Our charity organization provides grants and scholarships to young athletes and students. Follow us on Instagram at @simonreadfoundation and on Facebook at facebook.com/SimonReadFoundation.",
+        "image": "simon_read_foundation.png",
+        "instagramUrl": "",
+        "facebookUrl": "https://www.facebook.com/profile.php?id=100083067233575"
+      }
+  ]
+ 

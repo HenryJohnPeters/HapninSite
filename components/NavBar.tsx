@@ -22,7 +22,7 @@ const NavBar = () => {
         {/* LOGO + NAV */}
         <div className="flex items-center w-full justify-between">
           <div className="flex items-center">
-            <h1 className="text-3xl font-bold mr-4">HAPNIN</h1>
+            {/* <h1 className="text-3xl font-bold mr-4">HAPNIN</h1> */}
             <div className="flex gap-2">
               <a href="https://www.facebook.com/hapninuk/">
                 <FaFacebook className="text-2xl mr-2 hover:text-[#70f1ae]" />

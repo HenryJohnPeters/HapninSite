@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Element } from "react-scroll";
 
 import barbecue from "../../public/static/barbecue-party.svg";
+import logo from "../../public/static/logo.png";
 import ImageGrid from "./ImageGrid";
 
 const Hero = () => {
@@ -11,7 +12,9 @@ const Hero = () => {
       <Element name="hero" />
       <div className="bg-gradient-to-br from-[#70f1ae] to-[#70f1ae] w-full flex flex-col justify-center items-center py-[6rem] sm:py-[3.5rem] px-6 sm:px-10">
         <div className="mx-auto sm:mx-4 md:mx-12 lg:mx-0 lg:w-3/4 2xl:w-[1200px]">
+
           <div className="flex flex-col sm:flex-row justify-between items-center sm:pt-[6rem] sm:pb-4 md:mb-6 lg:mb-8 2xl:pb-12">
+
             <div className="flex flex-col justify-center sm:w-1/2 sm:p-2">
               <h1 className="font-bold text-3xl lg:text-4xl text-black mb-6 leading-tight">
                 The app that helps you find out what is HAPNIN in your area!
