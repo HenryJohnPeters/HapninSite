@@ -106,17 +106,16 @@ const Partners = () => {
                         className="mySwiper"
                       >
             {partners.map((partner, idx) => (
-                <SwiperSlide>
-                  <AttentionSeeker> 
+                <SwiperSlide key={idx}>
+              
               <PartnerCard
                 image={`${basePath}/${partner.image}`}
                 name={partner.name}
                 description={partner.description}
                 facebookUrl={partner.facebookUrl}
                 instagramUrl={partner.instagramUrl}
-                key={partner.facebookUrl}
+                key={idx}
               />
-              </AttentionSeeker>
               </SwiperSlide>
             ))}
               </Swiper>
