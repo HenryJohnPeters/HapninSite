@@ -28,7 +28,7 @@ function GridItemComponent({ title, desc, image }: GridItemComponentProps) {
         </p>
       </div>
       <div className="h-full ml-2 w-1/4 flex items-center">
-        <Zoom> 
+        {/* <Zoom>  */}
         <Image
           src={image}
           alt="party"
@@ -36,7 +36,7 @@ function GridItemComponent({ title, desc, image }: GridItemComponentProps) {
           width={500}
           height={500}
         />
-        </Zoom>
+        {/* </Zoom> */}
       </div>
     </div>
   );
