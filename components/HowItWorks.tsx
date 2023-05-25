@@ -7,6 +7,7 @@ import "swiper/swiper-bundle.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
+import {Reveal, Fade} from "react-awesome-reveal";
 
 interface Props {
   name: string;
@@ -16,7 +17,7 @@ interface Props {
 
 function Card({ image, name, description }: Props) {
   return (
-    <div className="cursor-pointer rounded-md overflow-hidden shadow-md mb-5 min-w-lg flex flex-row items-center hover:bg-green-50 transition-colors duration-300 md:4-[400px] lg:w-[400px] lg:h-[400px]">
+    <div className="cursor-pointer bg-white  rounded-md overflow-hidden shadow-md mb-5 min-w-lg flex flex-row items-center hover:bg-green-50 transition-colors duration-300 md:4-[400px] lg:w-[400px] lg:h-[400px]">
       {/* IMAGE */}
       <div className="relative w-1/3 sm:w-1/4 md:w-1/3 lg:w-1/2 h-full overflow-hidden bg-black rounded-xl p-1">
         {/* <div className="absolute inset-0 bg-green-50 transform -rotate-6 origin-top-left"></div>
@@ -55,22 +56,24 @@ const HowItWorks = () => {
   return (
     <>
       <Element name="howItWorks" />
-      <div className="w-full px-6 sm:px-10 my-[5rem]">
+      <div className="w-full bg-[#70f1ae] px-6 sm:px-10 my-[5rem] py-16">
         <div className="xl:mx-[6rem] 2xl:w-[1400px] 2xl:mx-auto">
           <div className="mb-10">
             <h2 className="font-bold text-2xl text-center mb-2">
               How HAPNIN works
+              
             </h2>
-            <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
+            <hr className="border-b-2 border-white mx-auto w-20" />
+           
           </div>
 
           <Swiper
             // spaceBetween={100}
             breakpoints={{
-              640: { slidesPerView: 1 },
+              640: { slidesPerView: 1, spaceBetween: 40  },
               768: { slidesPerView: 2, spaceBetween: 40 },
-              1024: { slidesPerView: 2, spaceBetween: 10 },
-              1280: { slidesPerView: 3, spaceBetween: 40 },
+              1024: { slidesPerView: 2, spaceBetween: 40 },
+              // 1280: { slidesPerView: 2, spaceBetween: 40 },
             }}
             pagination={{
               clickable: true,
@@ -83,27 +86,35 @@ const HowItWorks = () => {
             modules={[Navigation]}
             className="mySwiper"
           >
+             
             <SwiperSlide>
+            <Fade>
               <Card
                 image={screen1}
                 description={findEventDescShort}
                 name={"Find Events"}
               />
+              </Fade>
             </SwiperSlide>
             <SwiperSlide>
+            <Fade>
               <Card
                 image={screen2}
                 description={createEventDescShort}
                 name={"Create Events"}
               />
+                </Fade>
             </SwiperSlide>
             <SwiperSlide>
+            <Fade>
               <Card
                 image={screen4}
                 description={attendEventDescShort}
                 name={"Attend Events"}
               />
+                 </Fade>
             </SwiperSlide>
+            
           </Swiper>
         </div>
       </div>

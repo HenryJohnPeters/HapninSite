@@ -7,6 +7,7 @@ import Partners from "@/components/Partners";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 import ImageGrid from "@/components/Hero/ImageGrid";
+import { Fade, AttentionSeeker } from "react-awesome-reveal";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -14,10 +15,18 @@ export default function Home() {
   return (
     <main className={manrope.className}>
       <NavBar />
+
+       
       <Hero />
+    
+      <ImageGrid />
+     
       <HowItWorks />
-      {/* <ImageGrid /> */}
+     
+       
+      
       <Partners />
+      
       {/* <About /> */}
       <Footer />
     </main>

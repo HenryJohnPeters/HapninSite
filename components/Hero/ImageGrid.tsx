@@ -5,6 +5,7 @@ import charity from "../../public/static/charity.jpg";
 import event from "../../public/static/event.jpg";
 import neighbours from "../../public/static/neighbours.jpg";
 import havingFun from "../../public/static/havingFun.svg";
+import { Fade,JackInTheBox,Zoom } from "react-awesome-reveal";
 
 interface GridItemComponentProps {
   title: string;
@@ -14,7 +15,7 @@ interface GridItemComponentProps {
 
 function GridItemComponent({ title, desc, image }: GridItemComponentProps) {
   return (
-    <div className="flex flex-row bg-white rounded-lg shadow-lg p-6 my-2 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-purple-50">
+    <div className="flex bg-white flex-row bg-white rounded-lg shadow-lg p-6 my-2 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-purple-50">
       <div className="h-full w-3/4 justify-between">
         <div className="">
           <i className="fas fa-percent text-4xl text-purple-500 mb-4 animate-bounce-on-hover"></i>
@@ -27,6 +28,7 @@ function GridItemComponent({ title, desc, image }: GridItemComponentProps) {
         </p>
       </div>
       <div className="h-full ml-2 w-1/4 flex items-center">
+        <Zoom> 
         <Image
           src={image}
           alt="party"
@@ -34,6 +36,7 @@ function GridItemComponent({ title, desc, image }: GridItemComponentProps) {
           width={500}
           height={500}
         />
+        </Zoom>
       </div>
     </div>
   );
@@ -41,11 +44,11 @@ function GridItemComponent({ title, desc, image }: GridItemComponentProps) {
 
 const ImageGrid = () => {
   const gridContent = [
-    {
-      title: "Connect with like-minded people",
-      desc: "Find others in your local area who share your hobbies and interests",
-      image: "havingFun.svg",
-    },
+    // {
+    //   title: "Connect with like-minded people",
+    //   desc: "Find others in your local area who share your hobbies and interests",
+    //   image: "havingFun.svg",
+    // },
     {
       title: "Showcase your skills and talents",
       desc: "Host your own events and show off what makes you unique",
@@ -69,23 +72,26 @@ const ImageGrid = () => {
   ];
 
   return (
-    <div className="bg-[#70f1ae] mt-12">
+    <div className="bg-white mt-12">
       <div className="max-w-7xl mx-auto lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-2 text-center">
             Get the most out of your community!
           </h2>
-          <hr className="border-b-2 border-white mx-auto w-20" />
+          <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
         </div>
 
         <div className="grid md:grid-cols-2 md:gap-4">
           {gridContent.map((el, i) => (
+  
             <GridItemComponent
               title={el.title}
               desc={el.desc}
               image={`/static/${el.image}`}
               key={i}
             />
+         
+
           ))}
         </div>
       </div>
