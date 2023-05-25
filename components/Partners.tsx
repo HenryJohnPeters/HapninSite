@@ -114,7 +114,7 @@ const Partners = () => {
                 description={partner.description}
                 facebookUrl={partner.facebookUrl}
                 instagramUrl={partner.instagramUrl}
-                key={idx}
+                key={partner.facebookUrl}
               />
               </AttentionSeeker>
               </SwiperSlide>
