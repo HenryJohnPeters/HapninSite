@@ -52,7 +52,9 @@ function Card({ image, name, description }: Props) {
 const HowItWorks = () => {
   const screen1 = require("../public/static/screen1.png");
   const screen2 = require("../public/static/screen2.png");
+  const screen3 = require("../public/static/screen3.png");
   const screen4 = require("../public/static/screen4.png");
+  const screen5 = require("../public/static/screen5.png");
   return (
     <>
       <Element name="howItWorks" />
@@ -61,10 +63,10 @@ const HowItWorks = () => {
           <div className="mb-10">
             <h2 className="font-bold text-2xl text-center mb-2">
               How HAPNIN works
-              
+
             </h2>
             <hr className="border-b-2 border-white mx-auto w-20" />
-           
+
           </div>
 
           <Swiper
@@ -86,13 +88,22 @@ const HowItWorks = () => {
             modules={[Navigation]}
             className="mySwiper"
           >
-             
+
             <SwiperSlide>
             <Fade>
               <Card
                 image={screen1}
                 description={findEventDescShort}
                 name={"Find Events"}
+              />
+              </Fade>
+            </SwiperSlide>
+            <SwiperSlide>
+            <Fade>
+              <Card
+                image={screen3}
+                description={filterDesc}
+                name={"Explore, Engage, Enjoy"}
               />
               </Fade>
             </SwiperSlide>
@@ -108,20 +119,21 @@ const HowItWorks = () => {
             <SwiperSlide>
             <Fade>
               <Card
-                image={screen4}
+                image={screen5}
                 description={attendEventDescShort}
                 name={"Attend Events"}
               />
                  </Fade>
             </SwiperSlide>
-            
+
           </Swiper>
         </div>
       </div>
     </>
   );
 };
-
+const filterDesc =
+  "Discover what you love. Explore effortlessly. Switch seamlessly.";
 const findEventDescShort =
   "Looking for something to do in your local area? With HAPNIN, you can easily find events that match your interests and location.";
 const findEventDesc =

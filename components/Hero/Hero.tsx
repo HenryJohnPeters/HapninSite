@@ -47,13 +47,13 @@ const Hero = () => {
 
 
             <div className="w-full sm:w-1/2 mt-10 sm:mt-0 p-1 sm:p-8">
-            {/* <JackInTheBox>  */}
+            <JackInTheBox> 
               <Image
                 src={barbecue}
                 alt="party"
                 className="w-full rounded-lg shadow-lg hover:scale-105 transition-all duration-500"
               />
-              {/* </JackInTheBox>  */}
+              </JackInTheBox> 
             </div>
           </div>
 
