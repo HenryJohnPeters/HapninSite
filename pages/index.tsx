@@ -15,23 +15,17 @@ export default function Home() {
   return (
     <main className={manrope.className}>
       <NavBar />
-
-
       <Hero />
-
       <Fade>
-      <ImageGrid />
+        <ImageGrid />
       </Fade>
-
-      <Fade>
-      <HowItWorks />
-      </Fade>
-
-
+      {/* <Fade>
+        <HowItWorks />
+      </Fade> */}
+      {/*
       <Fade>
       <Partners />
-      </Fade>
-
+      </Fade> */}
       {/* <About /> */}
       <Footer />
     </main>

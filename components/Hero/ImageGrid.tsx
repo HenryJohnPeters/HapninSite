@@ -1,11 +1,26 @@
-import React from "react";
-import Image from "next/image";
 
-import charity from "../../public/static/charity.jpg";
-import event from "../../public/static/event.jpg";
-import neighbours from "../../public/static/neighbours.jpg";
-import havingFun from "../../public/static/havingFun.svg";
-import { Fade,JackInTheBox,Zoom } from "react-awesome-reveal";
+const gridContent = [
+
+  {
+    title: "Support Local buisnesses",
+    desc: "Buy local or bye local. Help the independant buisnesses you love.",
+    image: "love.svg",
+
+  },
+  {
+    title: "Discover Things to do",
+    desc: "Wether you want a bite to eat or to find a new excursion look no further.",
+    image: "music.svg",
+  },
+  {
+    title: "Support your community",
+    desc: "Help make a difference in your local community through our platform",
+    image: "support.svg",
+  },
+
+]; import React from "react";
+import Image from "next/image";
+import { Zoom } from "react-awesome-reveal";
 
 interface GridItemComponentProps {
   title: string;
@@ -15,83 +30,42 @@ interface GridItemComponentProps {
 
 function GridItemComponent({ title, desc, image }: GridItemComponentProps) {
   return (
-    <div className="flex bg-white flex-row bg-white rounded-lg shadow-lg p-6 my-2 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:bg-purple-50">
-      <div className="h-full w-3/4 justify-between">
-        <div className="">
-          <i className="fas fa-percent text-4xl text-purple-500 mb-4 animate-bounce-on-hover"></i>
-          <h3 className="sm:text-lg font-bold text-center uppercase tracking-wider hover:text-purple-600">
-            {title}{" "}
-          </h3>
+    <div className="flex flex-col bg-white rounded-lg shadow-lg p-6 m-2 transform transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl items-center">
+      <Zoom>
+        <div className="w-48 h-48 relative">
+          <Image src={image} alt={title} layout="fill" objectFit="cover" className="rounded-lg" />
         </div>
-        <p className="text-base font-medium text-center hover:text-purple-600">
-          {desc}
-        </p>
-      </div>
-      <div className="h-full ml-2 w-1/4 flex items-center">
-        {/* <Zoom>  */}
-        <Image
-          src={image}
-          alt="party"
-          className="w-full"
-          width={500}
-          height={500}
-        />
-        {/* </Zoom> */}
-      </div>
+      </Zoom>
+      <h3 className="text-lg font-bold text-center uppercase tracking-wider text-black mt-4">
+        {title}
+      </h3>
+      <p className="text-base font-medium text-center mt-2">
+        {desc}
+      </p>
     </div>
   );
 }
 
 const ImageGrid = () => {
-  const gridContent = [
-    // {
-    //   title: "Connect with like-minded people",
-    //   desc: "Find others in your local area who share your hobbies and interests",
-    //   image: "havingFun.svg",
-    // },
-    {
-      title: "Showcase your skills and talents",
-      desc: "Host your own events and show off what makes you unique",
-      image: "music.svg",
-    },
-    {
-      title: "Discover exciting events",
-      desc: "Find the hottest events and activities happening near you",
-      image: "love.svg",
-    },
-    {
-      title: "Support your community",
-      desc: "Help make a difference in your local community through our platform",
-      image: "support.svg",
-    },
-    {
-      title: "Exclusive Discounts & Offers",
-      desc: "Save on local events and activities",
-      image: "discount.svg",
-    },
-  ];
+
 
   return (
-    <div className="bg-white mt-12">
-      <div className="max-w-7xl mx-auto lg:px-8">
+    <div className="bg-white m-12">
+      <div className="mx-auto lg:px-8">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold mb-2 text-center">
+          <h2 className="text-3xl font-bold mb-2">
             Get the most out of your community!
           </h2>
-          <hr className="border-b-2 border-[#70f1ae] mx-auto w-20" />
+          <hr className="border-b-2 border-[#70f1ae] mx-auto w-40" />
         </div>
-
-        <div className="grid md:grid-cols-2 md:gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center">
           {gridContent.map((el, i) => (
-  
             <GridItemComponent
               title={el.title}
               desc={el.desc}
               image={`/static/${el.image}`}
               key={i}
             />
-         
-
           ))}
         </div>
       </div>

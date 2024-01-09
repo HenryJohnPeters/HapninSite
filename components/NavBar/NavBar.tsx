@@ -19,25 +19,22 @@ const NavBar = () => {
       <div className="flex justify-between items-center px-4 w-full h-full">
         <div className="flex items-center w-full justify-between">
           <div className="flex items-center">
-          <Image
+            <Image
               src={logo}
               alt="Logo"
               className="hover:rotate-12 hover:scale-115  hover:shadow-lg transition-all duration-500"
               style={{
-
-                backgroundColor:'black',
-                borderRadius:'50px',
-                // backgroundColor:'black',
-                maxWidth: '70px',
-                maxHeight: '70px',
-
+                backgroundColor: 'black',
+                borderRadius: '50px',
+                maxWidth: '50px',
+                maxHeight: '50px',
               }}
             />
-            <h1 className="text-3xl font-bold mr-4 m-2">HAPNIN</h1>
-            <SocialLinks />
+            <h1 className="text-3xl font-bold mr-4 m-6">HAPNIN</h1>
+            {/* <SocialLinks /> */}
           </div>
           <div>
-            <ul className="hidden lg:flex">
+            {/* <ul className="hidden lg:flex">
               <li>
                 <Link to="hero" smooth={true} duration={500}>
                   Home
@@ -58,28 +55,28 @@ const NavBar = () => {
                   Our Partners
                 </Link>
               </li>
-              {/* <li>
+              <li>
                 <Link to="about" smooth={true} duration={500} offset={-70}>
                   Who We Are
                 </Link>
-              </li> */}
-            </ul>
+              </li>
+            </ul> */}
           </div>
         </div>
 
-        <DownloadAppCTA style="hidden lg:flex" />
+        {/* <DownloadAppCTA style="hidden lg:flex" />
         <div className="lg:hidden mr-4" onClick={() => handleToggleNavMenu()}>
           {openNavMenu ? (
             <XMarkIcon className="w-5 hover:cursor-pointer" />
           ) : (
             <Bars3Icon className="w-5 hover:cursor-pointer" />
           )}
-        </div>
+        </div> */}
       </div>
-      <MobileViewNavMenu
+      {/* <MobileViewNavMenu
         openNavMenu={openNavMenu}
         setOpenNavMenu={setOpenNavMenu}
-      />
+      /> */}
     </div>
   );
 };
