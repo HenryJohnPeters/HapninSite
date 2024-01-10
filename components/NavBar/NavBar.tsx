@@ -15,7 +15,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="w-screen h-[80px] z-10 fixed bg-white drop-shadow-md">
+    <div className="w-screen h-[80px] z-10   bg-white drop-shadow-md">
       <div className="flex justify-between items-center px-4 w-full h-full">
         <div className="flex items-center w-full justify-between">
           <div className="flex items-center">

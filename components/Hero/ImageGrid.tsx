@@ -2,9 +2,9 @@
 const gridContent = [
 
   {
-    title: "Support Local buisnesses",
+    title: "Exclusive Discounts & Offers",
     desc: "Buy local or bye local. Help the independant buisnesses you love.",
-    image: "love.svg",
+    image: "discount.svg",
 
   },
   {
@@ -14,7 +14,7 @@ const gridContent = [
   },
   {
     title: "Support your community",
-    desc: "Help make a difference in your local community through our platform",
+    desc: "Buy local or bye local. Help the independant buisnesses you love.",
     image: "support.svg",
   },
 
